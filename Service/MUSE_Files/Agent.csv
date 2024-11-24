@@ -1,0 +1,2 @@
+Name,AgentShare,RegionName,Objective1,Objective2,Objective3,ObjData1,ObjData2,ObjData3,Objsort1,Objsort2,Objsort3,SearchRule,DecisionMethod,Quantity,MaturityThreshold,SpendLimit,Type
+Agent2,Agent2,UK,LCOE,,,1,,,True,False,False,same_enduse,singleObj,1,0,999999999,new
