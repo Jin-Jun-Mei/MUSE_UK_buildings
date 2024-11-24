@@ -105,9 +105,46 @@ def explicit_interpolation(row):
 
 #     return row
 
+def bring_row_to_top(df, identifier, column_name=None):
+    """
+    Reorders the DataFrame so that the row with the specified identifier
+    is moved to the top. The identifier can either be in the index or a specific column.
+
+    Parameters:
+    - df (pd.DataFrame): The input DataFrame.
+    - identifier: The value to identify the row to move to the top.
+    - column_name (str, optional): The column name to search for the identifier
+                                   if it's not in the index. Defaults to None.
+
+    Returns:
+    - pd.DataFrame: A reordered DataFrame with the specified row at the top.
+    """
+    if column_name:  # If searching within a column
+        if identifier in df[column_name].values:
+            # Select the row(s) where the column matches the identifier
+            target_row = df[df[column_name] == identifier]
+            # Drop the identified row(s) from the original DataFrame
+            remaining_rows = df[df[column_name] != identifier]
+        else:
+            # If the identifier is not found, return the original DataFrame
+            return df
+    else:  # If searching in the index
+        if identifier in df.index:
+            # Extract the row with the identifier in the index
+            target_row = df.loc[[identifier]]
+            # Drop the specified row from the original DataFrame
+            remaining_rows = df.drop(identifier)
+        else:
+            # If the identifier is not found, return the original DataFrame
+            return df
+
+    # Concatenate the target row on top of the remaining rows
+    df_reordered = pd.concat([target_row, remaining_rows])
+    return df_reordered
 
 
-def merge_by_column(file1, file2, column_name, output_file):
+
+def merge_by_column(file1, file2, column_name, output_file=None):
     """
     Merges two specific CSV files based on a common column, saving the result.
     
@@ -126,20 +163,22 @@ def merge_by_column(file1, file2, column_name, output_file):
     
     # Merge on the specified column
     merged_df = pd.merge(df1, df2, on=column_name, how='outer', suffixes=('', '_drop'))
-    
+ 
     # Drop duplicated columns
     merged_df = merged_df[[col for col in merged_df.columns if not col.endswith('_drop')]]
     
-    # Save the merged DataFrame to the specified output file
-    merged_df.to_csv(output_file, index=False)
+    if output_file is not None:
+        # Save the merged DataFrame to the specified output file
+        merged_df.to_csv(output_file, index=False)
     
-    print(f"Merged files saved to {output_file}")
+        print(f"Merged files saved to {output_file}")
+   
 
     return merged_df
 
 
 
-def merge_by_row(file1, file2, output_file):
+def merge_by_row(file1, file2, output_file=None):
     """
     Merges two CSV files by adding rows together, removes duplicate rows, and saves the result.
     
@@ -162,12 +201,49 @@ def merge_by_row(file1, file2, output_file):
     # Drop duplicate rows
     merged_df = merged_df.drop_duplicates()
     
-    # Save the merged DataFrame to the specified output file
-    merged_df.to_csv(output_file, index=False)
+    if output_file is not None:
+        # Save the merged DataFrame to the specified output file
+        merged_df.to_csv(output_file, index=False)
     
-    print(f"Merged files saved to {output_file} with duplicates removed.")
+        print(f"Merged files saved to {output_file} with duplicates removed.")
     
     return merged_df
+
+
+def split_agent_column(df, keyword="new"):
+    """
+    Splits a DataFrame into two parts based on whether a specified keyword is present
+    in the first row (Unit).
+
+    Parameters:
+    - df (pd.DataFrame): The input DataFrame to split.
+    - keyword (str): The keyword to check for in the specified column.
+
+    Returns:
+    - df_with_keyword (pd.DataFrame): DataFrame with columns where the keyword is found.
+    - df_without_keyword (pd.DataFrame): DataFrame with columns where the keyword is not found.
+    """
+
+    # Set 'ProcessName' as the index
+    if df.index.name != "ProcessName":
+        df = df.set_index("ProcessName")
+
+    # Identify the first row corresponding to "Unit"
+    if "Unit" not in df.index:
+        raise ValueError("No 'Unit' row found in the index.")
+    
+    first_row = df.loc["Unit"]
+
+    # Identify columns with and without the keyword
+    columns_with_keyword = df.columns[first_row.str.contains(keyword, na=False)]
+    columns_without_keyword = df.columns[~first_row.str.contains(keyword, na=False)]
+
+    # Split the DataFrame
+    df_with_keyword = df[columns_with_keyword]
+    df_without_keyword = df[columns_without_keyword]
+
+    return df_with_keyword, df_without_keyword
+
 
 
 
@@ -235,3 +311,80 @@ def merge_by_column_and_row(file1, file2, output_file):
     merged_df.to_csv(output_file, index=False)
     
     print(f"Merged files saved to {output_file} with duplicates removed, 'Unit' rows combined, and missing values filled with 0.")
+
+
+# 
+def split_agent_columns(df, keyword="new"):
+    """
+    Splits a DataFrame into two parts based on whether a specified keyword is present
+    in the first row (Unit).
+
+    Parameters:
+    - df (pd.DataFrame): The input DataFrame to split.
+    - keyword (str): The keyword to check for in the specified column.
+
+    Returns:
+    - df_with_keyword (pd.DataFrame): DataFrame with columns where the keyword is found.
+    - df_without_keyword (pd.DataFrame): DataFrame with columns where the keyword is not found.
+    """
+    
+    # Set 'ProcessName' as the index
+    
+    if df.index.name != "ProcessName":
+        df = df.set_index("ProcessName")
+    
+
+    # Identify the first row corresponding to "Unit"
+    if "Unit" not in df.index:
+        raise ValueError("No 'Unit' row found in the index.")
+    
+    first_row = df.loc["Unit"]
+
+    # Identify columns with and without the keyword
+    columns_with_keyword = df.columns[first_row.str.contains(keyword, na=False)]
+    columns_without_keyword = df.columns[~first_row.str.contains(keyword, na=False)]
+
+    # Split the DataFrame
+    df_with_keyword = df[columns_with_keyword]
+    df_without_keyword = df[columns_without_keyword]
+
+    return df_with_keyword, df_without_keyword
+
+
+
+
+# 
+def merge_by_row_technodata(file1, file2, output_file=None):
+    """
+   Similar to the merge_by_row function, but this function is specifically for merging two Technodata files.
+   As technodata files have a specific structure (have a Unit row and agent columns), this function is designed to handle that structure.
+    """
+    # Load the CSV files
+    df1 = pd.read_csv(file1)
+    df2 = pd.read_csv(file2)
+    
+
+    # Separate the columns into two parts based on whether the first row (index "Unit") contains "new" (which indicates agent columns)
+    df1_with_agents, df1_without_agents = split_agent_columns(df1)
+    df2_with_agents, df2_without_agents = split_agent_columns(df2)
+
+    # Merge on ProcessName
+    # (1) merge agent columns 
+    merged_agent_columns = pd.merge(df1_with_agents, df2_with_agents, on='ProcessName', how='outer').fillna(0)
+    # (2) merge non-agent columns (a.ka. technology data)
+    merged_non_agents_columns = pd.concat([df1_without_agents, df2_without_agents], axis=0, ignore_index=False)
+    # merged (1) and (2)
+    merged_all_columns = pd.merge(merged_non_agents_columns, merged_agent_columns, left_index=True, right_index=True, how='outer')
+    # remove duplicates
+    merged_all_columns.drop_duplicates(inplace=True)
+    # bring the "Unit" row to the top row
+    merged_all_columns = bring_row_to_top(merged_all_columns, 'Unit')
+
+
+    if output_file is not None:
+        # Save the merged DataFrame to the specified output file
+        merged_all_columns.to_csv(output_file, index=True)
+    
+        print(f"Merged files saved to {output_file} with duplicates removed.")
+
+    return merged_all_columns
