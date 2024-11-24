@@ -142,6 +142,25 @@ def bring_row_to_top(df, identifier, column_name=None):
     df_reordered = pd.concat([target_row, remaining_rows])
     return df_reordered
 
+def reorder_columns(dataframe, first_column):
+    """
+    Reorders the columns of a DataFrame, placing the specified column first.
+
+    Parameters:
+        dataframe (pd.DataFrame): The DataFrame to reorder.
+        first_column (str): The column to place first.
+
+    Returns:
+        pd.DataFrame: The reordered DataFrame.
+    """
+    if first_column not in dataframe.columns:
+        raise ValueError(f"Column '{first_column}' not found in DataFrame.")
+    # Create the new column order
+    columns = [first_column] + [col for col in dataframe.columns if col != first_column]
+    # Reorder and return the DataFrame
+    return dataframe[columns]
+
+
 
 
 def merge_by_column(file1, file2, column_name, output_file=None):
