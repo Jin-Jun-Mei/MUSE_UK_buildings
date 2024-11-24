@@ -106,3 +106,132 @@ def explicit_interpolation(row):
 #     return row
 
 
+
+def merge_by_column(file1, file2, column_name, output_file):
+    """
+    Merges two specific CSV files based on a common column, saving the result.
+    
+    Parameters:
+    - df1: str - Path to the first CSV file, e.g. residential_file_path.
+    - file2: str - Path to the second CSV file, e.g. service_file_path.
+    - column_name: str - Column name to merge on.
+    - output_file_path: str - Path to save the merged CSV file.
+    
+    Returns:
+    - merged_df
+    """
+    # Load the CSV files
+    df1 = pd.read_csv(file1)
+    df2 = pd.read_csv(file2)
+    
+    # Merge on the specified column
+    merged_df = pd.merge(df1, df2, on=column_name, how='outer', suffixes=('', '_drop'))
+    
+    # Drop duplicated columns
+    merged_df = merged_df[[col for col in merged_df.columns if not col.endswith('_drop')]]
+    
+    # Save the merged DataFrame to the specified output file
+    merged_df.to_csv(output_file, index=False)
+    
+    print(f"Merged files saved to {output_file}")
+
+    return merged_df
+
+
+
+def merge_by_row(file1, file2, output_file):
+    """
+    Merges two CSV files by adding rows together, removes duplicate rows, and saves the result.
+    
+    Parameters:
+    - file1: str - Path to the first CSV file, e.g. residential_file_path.
+    - file2: str - Path to the second CSV file, e.g. service_file_path.
+    - output_file: str - Path to save the merged CSV file, e.g. Building_file_path.
+    
+    Returns:
+    -None
+    or - merged_df: pd.DataFrame - The resulting merged DataFrame with duplicate rows removed.
+    """
+    # Load the CSV files
+    df1 = pd.read_csv(file1)
+    df2 = pd.read_csv(file2)
+    
+    # Concatenate the DataFrames along rows
+    merged_df = pd.concat([df1, df2], axis=0, ignore_index=True)
+    
+    # Drop duplicate rows
+    merged_df = merged_df.drop_duplicates()
+    
+    # Save the merged DataFrame to the specified output file
+    merged_df.to_csv(output_file, index=False)
+    
+    print(f"Merged files saved to {output_file} with duplicates removed.")
+    
+    return merged_df
+
+
+
+def merge_by_column_and_row(file1, file2, output_file):
+    """
+    Merges two CSV files by keeping all unique columns and rows, combines "Unit" rows into one,
+    and fills missing values with 0 for columns that are not present in one of the files.
+    
+    Parameters:
+    - file1: str - Path to the first CSV file.
+    - file2: str - Path to the second CSV file.
+    - output_file: str - Path to save the merged CSV file.
+    
+    Returns:
+    - None
+    """
+    # Load the CSV files as strings for consistency
+    df1 = pd.read_csv(file1, dtype=str)
+    df2 = pd.read_csv(file2, dtype=str)
+    
+    # Concatenate along rows with an outer join to keep all columns
+    merged_df = pd.concat([df1, df2], axis=0, ignore_index=True)
+    
+    # Separate "Unit" rows
+    unit_rows = merged_df[merged_df['ProcessName'] == 'Unit']
+    merged_df = merged_df[merged_df['ProcessName'] != 'Unit']
+    
+    # If there are multiple "Unit" rows, combine them
+    if len(unit_rows) > 1:
+        combined_unit_row = unit_rows.iloc[0].copy()  # Start with the first "Unit" row
+        
+        # Iterate over columns to combine values from all "Unit" rows
+        for idx in range(1, len(unit_rows)):
+            for col in unit_rows.columns:
+                # Keep the non-zero, non-empty value if they differ
+                current_value = combined_unit_row[col]
+                new_value = unit_rows.iloc[idx][col]
+                
+                # Check for zero or empty before replacing
+                
+                if(pd.isna(current_value) or current_value == '') and not pd.isna(new_value) and new_value != '':
+                    combined_unit_row[col] = new_value
+        
+        # Use only the combined "Unit" row
+        unit_row_df = pd.DataFrame([combined_unit_row])
+
+    elif len(unit_rows) == 1:
+        # If only one "Unit" row exists, retain it
+        unit_row_df = unit_rows
+    else:
+        print("No 'Unit' row found in either file.")
+        unit_row_df = pd.DataFrame()  # Empty DataFrame if no "Unit" row exists
+
+    # Fill missing values across the entire DataFrame with 0
+    merged_df = merged_df.fillna(0)
+    
+    # Concatenate the "Unit" row back on top, if it exists
+    if not unit_row_df.empty:
+        merged_df = pd.concat([unit_row_df, merged_df], ignore_index=True)
+    
+    # Drop duplicate rows based on all columns
+    merged_df = merged_df.drop_duplicates()
+    
+    # Save the result to a CSV file
+    merged_df.to_csv(output_file, index=False)
+    
+    print(f"Merged files saved to {output_file} with duplicates removed, 'Unit' rows combined, and missing values filled with 0.")
