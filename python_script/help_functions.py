@@ -370,8 +370,6 @@ def split_agent_columns(df, keyword="new"):
     return df_with_keyword, df_without_keyword
 
 
-
-
 # 
 def merge_by_row_technodata(file1, file2, output_file=None):
     """
@@ -390,20 +388,56 @@ def merge_by_row_technodata(file1, file2, output_file=None):
     # Merge on ProcessName
     # (1) merge agent columns 
     merged_agent_columns = pd.merge(df1_with_agents, df2_with_agents, on='ProcessName', how='outer').fillna(0)
+    # print(merged_agent_columns.shape)
     # (2) merge non-agent columns (a.ka. technology data)
     merged_non_agents_columns = pd.concat([df1_without_agents, df2_without_agents], axis=0, ignore_index=False)
+    # print(merged_non_agents_columns.shape)
     # merged (1) and (2)
     merged_all_columns = pd.merge(merged_non_agents_columns, merged_agent_columns, left_index=True, right_index=True, how='outer')
-    # remove duplicates
-    merged_all_columns.drop_duplicates(inplace=True)
+    
     # bring the "Unit" row to the top row
     merged_all_columns = bring_row_to_top(merged_all_columns, 'Unit')
 
+    # remove duplicates (this comment out as it is not necessary)
+    merged_all_columns.reset_index(drop=False, inplace=True)
+    merged_all_columns.drop_duplicates(inplace=True)
+    print(merged_all_columns.shape)
 
     if output_file is not None:
         # Save the merged DataFrame to the specified output file
-        merged_all_columns.to_csv(output_file, index=True)
+        merged_all_columns.to_csv(output_file, index=False)
     
-        print(f"Merged files saved to {output_file} with duplicates removed.")
+        print(f"Merged files saved to {output_file}.")
 
     return merged_all_columns
+
+
+
+
+def combine_tech(dataframe, columns_to_ignore, combine_column):
+    """
+    Groups a DataFrame by all columns except specified ones, combining values in a specified column.
+
+    Parameters:
+        dataframe (pd.DataFrame): The DataFrame to process.
+        columns_to_ignore (list): Columns to ignore during grouping.
+        combine_column (str): The column whose values should be combined for identical rows.
+
+    Returns:
+        pd.DataFrame: The grouped and combined DataFrame.
+    """
+    # Validate inputs
+    if combine_column not in dataframe.columns:
+        raise ValueError(f"Combine column '{combine_column}' not found in DataFrame.")
+    
+    # Define columns to group by (all except ignored ones)
+    columns_to_group_by = [col for col in dataframe.columns if col not in columns_to_ignore]
+    
+    # Group data and combine the specified column
+    grouped_data = dataframe.groupby(columns_to_group_by, dropna=False).agg({
+        combine_column: lambda x: ', '.join(x)  # Combine values in the specified column
+    }).reset_index()
+
+    print(f"Data grouped by columns: {columns_to_group_by} and values in '{combine_column}' combined.")
+    
+    return grouped_data
