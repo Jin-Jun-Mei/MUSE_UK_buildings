@@ -27,6 +27,8 @@ def non_heat_capacity_share(df_non_heat_techdata, df_ofgem,non_heat_enduses_mapp
 
 
     # Step 2: Create multipliers DataFrame
+    # this data is taken from Household Electricity Survey Final Report 
+    # From: Department of Energy & Climate Change, Published 20 June 2013. GOV.UK.
     def create_enduse_multipliers():
         data = [
             ["Enduse", "without_elc_heating", "with_addition_elc_heating", "with_primary_elc_heating"],
@@ -71,6 +73,7 @@ def non_heat_capacity_share(df_non_heat_techdata, df_ofgem,non_heat_enduses_mapp
             if item in ['RES.REFRIGERATORS', 'RES.FREEZERS']:
                 df_ofgem[item] /= 2
 
+    # the non-heating end-use shares are calculated for each archetype in df_ofgem
     calculate_shares(df_ofgem, non_heat_enduses_mapping)
 
     # Step 5: Create enduse shares DataFrame
@@ -93,13 +96,28 @@ def non_heat_capacity_share(df_non_heat_techdata, df_ofgem,non_heat_enduses_mapp
                 return category
         return None
 
+    # get unique categories
     enduse_shares_categories = enduse_shares_df.index.unique()
+
+
+    # make a copy to ensure the DataFrame is independent
+    df_non_heat_techdata = df_non_heat_techdata.copy()
+
+    # Apply the transformation
+    df_non_heat_techdata.loc[:, 'mapped_category'] = df_non_heat_techdata['EndUse'].apply(
+        lambda x: find_containing_category(x, enduse_shares_categories)
+    )
+
+    # Perform the merge
     merged_df = pd.merge(
         df_non_heat_techdata,
         enduse_shares_df,
-        left_on=df_non_heat_techdata['EndUse'].apply(lambda x: find_containing_category(x, enduse_shares_categories)),
+        left_on='mapped_category',
         right_index=True,
         how='left'
     )
+
+    # Optionally drop the temporary column if no longer needed
+    df_non_heat_techdata = df_non_heat_techdata.drop(columns='mapped_category')
 
     return merged_df
