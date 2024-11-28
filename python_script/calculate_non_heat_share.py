@@ -118,6 +118,6 @@ def non_heat_capacity_share(df_non_heat_techdata, df_ofgem,non_heat_enduses_mapp
     )
 
     # Optionally drop the temporary column if no longer needed
-    df_non_heat_techdata = df_non_heat_techdata.drop(columns='mapped_category')
+    merged_df = merged_df.drop(columns='mapped_category')
 
     return merged_df

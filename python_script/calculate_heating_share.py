@@ -75,6 +75,7 @@ def heating_capacity_share(technodata,df_ofgem):
         }
         return fuel_mapping.get(fuel, "Other (solid fuel/LPG)")
 
+    technodata = technodata.copy()
     technodata.loc[:, 'MappedFuelType'] = technodata['Fuel'].apply(map_fuel_to_type)
 
     # Step 3: Merge Technodata with agent shares
@@ -91,7 +92,7 @@ def heating_capacity_share(technodata,df_ofgem):
         Fill missing values in specified columns for given fuel types.
         """
         rows = data['Fuel'].isin(fuels)
-        data.loc[rows, columns] = data.loc[rows, columns].fillna(0)
+        data.loc[rows, columns] = data.loc[rows, columns].fillna(0).infer_objects(copy=False)
         
     archetype_columns = [col for col in technodata_add_agents.columns if col in ofgem_agent_df.columns]
     handle_missing_values(technodata_add_agents, ['HYDROGEN', 'SOLAR'], archetype_columns)
