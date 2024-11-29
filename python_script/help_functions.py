@@ -396,3 +396,33 @@ def merge_by_row_technodata(file1, file2, output_file=None):
             print(f"Error: {e}")
 
     return merged_all_columns
+
+
+# 
+def combine_tech(dataframe, columns_to_ignore, combine_column):
+    """
+    Groups a DataFrame by all columns except specified ones, combining values in a specified column.
+
+    Parameters:
+        dataframe (pd.DataFrame): The DataFrame to process.
+        columns_to_ignore (list): Columns to ignore during grouping.
+        combine_column (str): The column whose values should be combined for identical rows.
+
+    Returns:
+        pd.DataFrame: The grouped and combined DataFrame.
+    """
+    # Validate inputs
+    if combine_column not in dataframe.columns:
+        raise ValueError(f"Combine column '{combine_column}' not found in DataFrame.")
+    
+    # Define columns to group by (all except ignored ones)
+    columns_to_group_by = [col for col in dataframe.columns if col not in columns_to_ignore]
+    
+    # Group data and combine the specified column
+    grouped_data = dataframe.groupby(columns_to_group_by, dropna=False).agg({
+        combine_column: lambda x: ', '.join(x)  # Combine values in the specified column
+    }).reset_index()
+
+    print(f"Data grouped by columns: {columns_to_group_by} and values in '{combine_column}' combined.")
+    
+    return grouped_data
