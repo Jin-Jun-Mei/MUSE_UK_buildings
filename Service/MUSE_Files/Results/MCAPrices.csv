@@ -1,6 +1,6 @@
 commodity,period,prices,region,season,timeslice,units_prices,year
 nga,Night,,UK,W,0,12.552,2010
-bog,Night,,UK,W,0,0,2010
+bog,Night,,UK,W,0,10.019,2010
 biomass,Night,,UK,W,0,10.019,2010
 elc,Night,,UK,W,0,43.34267522,2010
 oil,Night,,UK,W,0,19.7944343,2010
@@ -23,7 +23,7 @@ ser.hot-water.high-consumption,Night,,UK,W,0,0,2010
 ser.hot-water.low-consumption,Night,,UK,W,0,0,2010
 CO2f,Night,,UK,W,0,0,2010
 nga,Day,,UK,W,1,12.552,2010
-bog,Day,,UK,W,1,0,2010
+bog,Day,,UK,W,1,10.019,2010
 biomass,Day,,UK,W,1,10.019,2010
 elc,Day,,UK,W,1,43.34267522,2010
 oil,Day,,UK,W,1,19.7944343,2010
@@ -46,7 +46,7 @@ ser.hot-water.high-consumption,Day,,UK,W,1,0,2010
 ser.hot-water.low-consumption,Day,,UK,W,1,0,2010
 CO2f,Day,,UK,W,1,0,2010
 nga,Peak,,UK,W,2,12.552,2010
-bog,Peak,,UK,W,2,0,2010
+bog,Peak,,UK,W,2,10.019,2010
 biomass,Peak,,UK,W,2,10.019,2010
 elc,Peak,,UK,W,2,43.34267522,2010
 oil,Peak,,UK,W,2,19.7944343,2010
@@ -69,7 +69,7 @@ ser.hot-water.high-consumption,Peak,,UK,W,2,0,2010
 ser.hot-water.low-consumption,Peak,,UK,W,2,0,2010
 CO2f,Peak,,UK,W,2,0,2010
 nga,Evening,,UK,W,3,12.552,2010
-bog,Evening,,UK,W,3,0,2010
+bog,Evening,,UK,W,3,10.019,2010
 biomass,Evening,,UK,W,3,10.019,2010
 elc,Evening,,UK,W,3,43.34267522,2010
 oil,Evening,,UK,W,3,19.7944343,2010
@@ -92,7 +92,7 @@ ser.hot-water.high-consumption,Evening,,UK,W,3,0,2010
 ser.hot-water.low-consumption,Evening,,UK,W,3,0,2010
 CO2f,Evening,,UK,W,3,0,2010
 nga,Night,,UK,P,4,12.552,2010
-bog,Night,,UK,P,4,0,2010
+bog,Night,,UK,P,4,10.019,2010
 biomass,Night,,UK,P,4,10.019,2010
 elc,Night,,UK,P,4,43.34267522,2010
 oil,Night,,UK,P,4,19.7944343,2010
@@ -115,7 +115,7 @@ ser.hot-water.high-consumption,Night,,UK,P,4,0,2010
 ser.hot-water.low-consumption,Night,,UK,P,4,0,2010
 CO2f,Night,,UK,P,4,0,2010
 nga,Day,,UK,P,5,12.552,2010
-bog,Day,,UK,P,5,0,2010
+bog,Day,,UK,P,5,10.019,2010
 biomass,Day,,UK,P,5,10.019,2010
 elc,Day,,UK,P,5,43.34267522,2010
 oil,Day,,UK,P,5,19.7944343,2010
@@ -138,7 +138,7 @@ ser.hot-water.high-consumption,Day,,UK,P,5,0,2010
 ser.hot-water.low-consumption,Day,,UK,P,5,0,2010
 CO2f,Day,,UK,P,5,0,2010
 nga,Peak,,UK,P,6,12.552,2010
-bog,Peak,,UK,P,6,0,2010
+bog,Peak,,UK,P,6,10.019,2010
 biomass,Peak,,UK,P,6,10.019,2010
 elc,Peak,,UK,P,6,43.34267522,2010
 oil,Peak,,UK,P,6,19.7944343,2010
@@ -161,7 +161,7 @@ ser.hot-water.high-consumption,Peak,,UK,P,6,0,2010
 ser.hot-water.low-consumption,Peak,,UK,P,6,0,2010
 CO2f,Peak,,UK,P,6,0,2010
 nga,Evening,,UK,P,7,12.552,2010
-bog,Evening,,UK,P,7,0,2010
+bog,Evening,,UK,P,7,10.019,2010
 biomass,Evening,,UK,P,7,10.019,2010
 elc,Evening,,UK,P,7,43.34267522,2010
 oil,Evening,,UK,P,7,19.7944343,2010
@@ -184,7 +184,7 @@ ser.hot-water.high-consumption,Evening,,UK,P,7,0,2010
 ser.hot-water.low-consumption,Evening,,UK,P,7,0,2010
 CO2f,Evening,,UK,P,7,0,2010
 nga,Night,,UK,S,8,12.552,2010
-bog,Night,,UK,S,8,0,2010
+bog,Night,,UK,S,8,10.019,2010
 biomass,Night,,UK,S,8,10.019,2010
 elc,Night,,UK,S,8,43.34267522,2010
 oil,Night,,UK,S,8,19.7944343,2010
@@ -207,7 +207,7 @@ ser.hot-water.high-consumption,Night,,UK,S,8,0,2010
 ser.hot-water.low-consumption,Night,,UK,S,8,0,2010
 CO2f,Night,,UK,S,8,0,2010
 nga,Day,,UK,S,9,12.552,2010
-bog,Day,,UK,S,9,0,2010
+bog,Day,,UK,S,9,10.019,2010
 biomass,Day,,UK,S,9,10.019,2010
 elc,Day,,UK,S,9,43.34267522,2010
 oil,Day,,UK,S,9,19.7944343,2010
@@ -230,7 +230,7 @@ ser.hot-water.high-consumption,Day,,UK,S,9,0,2010
 ser.hot-water.low-consumption,Day,,UK,S,9,0,2010
 CO2f,Day,,UK,S,9,0,2010
 nga,Peak,,UK,S,10,12.552,2010
-bog,Peak,,UK,S,10,0,2010
+bog,Peak,,UK,S,10,10.019,2010
 biomass,Peak,,UK,S,10,10.019,2010
 elc,Peak,,UK,S,10,43.34267522,2010
 oil,Peak,,UK,S,10,19.7944343,2010
@@ -253,7 +253,7 @@ ser.hot-water.high-consumption,Peak,,UK,S,10,0,2010
 ser.hot-water.low-consumption,Peak,,UK,S,10,0,2010
 CO2f,Peak,,UK,S,10,0,2010
 nga,Evening,,UK,S,11,12.552,2010
-bog,Evening,,UK,S,11,0,2010
+bog,Evening,,UK,S,11,10.019,2010
 biomass,Evening,,UK,S,11,10.019,2010
 elc,Evening,,UK,S,11,43.34267522,2010
 oil,Evening,,UK,S,11,19.7944343,2010
@@ -276,7 +276,7 @@ ser.hot-water.high-consumption,Evening,,UK,S,11,0,2010
 ser.hot-water.low-consumption,Evening,,UK,S,11,0,2010
 CO2f,Evening,,UK,S,11,0,2010
 nga,Night,,UK,A,12,12.552,2010
-bog,Night,,UK,A,12,0,2010
+bog,Night,,UK,A,12,10.019,2010
 biomass,Night,,UK,A,12,10.019,2010
 elc,Night,,UK,A,12,43.34267522,2010
 oil,Night,,UK,A,12,19.7944343,2010
@@ -299,7 +299,7 @@ ser.hot-water.high-consumption,Night,,UK,A,12,0,2010
 ser.hot-water.low-consumption,Night,,UK,A,12,0,2010
 CO2f,Night,,UK,A,12,0,2010
 nga,Day,,UK,A,13,12.552,2010
-bog,Day,,UK,A,13,0,2010
+bog,Day,,UK,A,13,10.019,2010
 biomass,Day,,UK,A,13,10.019,2010
 elc,Day,,UK,A,13,43.34267522,2010
 oil,Day,,UK,A,13,19.7944343,2010
@@ -322,7 +322,7 @@ ser.hot-water.high-consumption,Day,,UK,A,13,0,2010
 ser.hot-water.low-consumption,Day,,UK,A,13,0,2010
 CO2f,Day,,UK,A,13,0,2010
 nga,Peak,,UK,A,14,12.552,2010
-bog,Peak,,UK,A,14,0,2010
+bog,Peak,,UK,A,14,10.019,2010
 biomass,Peak,,UK,A,14,10.019,2010
 elc,Peak,,UK,A,14,43.34267522,2010
 oil,Peak,,UK,A,14,19.7944343,2010
@@ -345,7 +345,7 @@ ser.hot-water.high-consumption,Peak,,UK,A,14,0,2010
 ser.hot-water.low-consumption,Peak,,UK,A,14,0,2010
 CO2f,Peak,,UK,A,14,0,2010
 nga,Evening,,UK,A,15,12.552,2010
-bog,Evening,,UK,A,15,0,2010
+bog,Evening,,UK,A,15,10.019,2010
 biomass,Evening,,UK,A,15,10.019,2010
 elc,Evening,,UK,A,15,43.34267522,2010
 oil,Evening,,UK,A,15,19.7944343,2010
@@ -368,6 +368,7 @@ ser.hot-water.high-consumption,Evening,,UK,A,15,0,2010
 ser.hot-water.low-consumption,Evening,,UK,A,15,0,2010
 CO2f,Evening,,UK,A,15,0,2010
 nga,Night,12.47950000000,UK,W,0,12.552,2015
+bog,Night,11.84850000000,UK,W,0,10.019,2015
 biomass,Night,11.84850000000,UK,W,0,10.019,2015
 elc,Night,45.82250000000,UK,W,0,43.34267522,2015
 oil,Night,19.79440000000,UK,W,0,19.7944343,2015
@@ -387,6 +388,7 @@ ser.refrigeration,Night,4.02070000000,UK,W,0,0,2015
 ser.hot-water.high-consumption,Night,0.36470000000,UK,W,0,0,2015
 ser.hot-water.low-consumption,Night,0.48420000000,UK,W,0,0,2015
 nga,Day,12.47950000000,UK,W,1,12.552,2015
+bog,Day,11.84850000000,UK,W,1,10.019,2015
 biomass,Day,11.84850000000,UK,W,1,10.019,2015
 elc,Day,45.82250000000,UK,W,1,43.34267522,2015
 oil,Day,19.79440000000,UK,W,1,19.7944343,2015
@@ -406,6 +408,7 @@ ser.refrigeration,Day,5.74380000000,UK,W,1,0,2015
 ser.hot-water.high-consumption,Day,0.52970000000,UK,W,1,0,2015
 ser.hot-water.low-consumption,Day,2.28930000000,UK,W,1,0,2015
 nga,Peak,12.47950000000,UK,W,2,12.552,2015
+bog,Peak,11.84850000000,UK,W,2,10.019,2015
 biomass,Peak,11.84850000000,UK,W,2,10.019,2015
 elc,Peak,45.82250000000,UK,W,2,43.34267522,2015
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2015
@@ -424,6 +427,7 @@ ser.refrigeration,Peak,1.72310000000,UK,W,2,0,2015
 ser.hot-water.high-consumption,Peak,0.12570000000,UK,W,2,0,2015
 ser.hot-water.low-consumption,Peak,0.15150000000,UK,W,2,0,2015
 nga,Evening,12.47950000000,UK,W,3,12.552,2015
+bog,Evening,11.84850000000,UK,W,3,10.019,2015
 biomass,Evening,11.84850000000,UK,W,3,10.019,2015
 elc,Evening,45.82250000000,UK,W,3,43.34267522,2015
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2015
@@ -443,6 +447,7 @@ ser.refrigeration,Evening,2.29750000000,UK,W,3,0,2015
 ser.hot-water.high-consumption,Evening,0.25020000000,UK,W,3,0,2015
 ser.hot-water.low-consumption,Evening,0.33230000000,UK,W,3,0,2015
 nga,Night,12.47950000000,UK,P,4,12.552,2015
+bog,Night,11.84850000000,UK,P,4,10.019,2015
 biomass,Night,11.84850000000,UK,P,4,10.019,2015
 elc,Night,45.82250000000,UK,P,4,43.34267522,2015
 oil,Night,19.79440000000,UK,P,4,19.7944343,2015
@@ -462,6 +467,7 @@ ser.refrigeration,Night,4.02070000000,UK,P,4,0,2015
 ser.hot-water.high-consumption,Night,0.37120000000,UK,P,4,0,2015
 ser.hot-water.low-consumption,Night,0.48370000000,UK,P,4,0,2015
 nga,Day,12.47950000000,UK,P,5,12.552,2015
+bog,Day,11.84850000000,UK,P,5,10.019,2015
 biomass,Day,11.84850000000,UK,P,5,10.019,2015
 elc,Day,45.82250000000,UK,P,5,43.34267522,2015
 oil,Day,19.79440000000,UK,P,5,19.7944343,2015
@@ -481,6 +487,7 @@ ser.refrigeration,Day,5.74380000000,UK,P,5,0,2015
 ser.hot-water.high-consumption,Day,0.56210000000,UK,P,5,0,2015
 ser.hot-water.low-consumption,Day,2.27820000000,UK,P,5,0,2015
 nga,Peak,12.47950000000,UK,P,6,12.552,2015
+bog,Peak,11.84850000000,UK,P,6,10.019,2015
 biomass,Peak,11.84850000000,UK,P,6,10.019,2015
 elc,Peak,45.82250000000,UK,P,6,43.34267522,2015
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2015
@@ -499,6 +506,7 @@ ser.refrigeration,Peak,1.72310000000,UK,P,6,0,2015
 ser.hot-water.high-consumption,Peak,0.12800000000,UK,P,6,0,2015
 ser.hot-water.low-consumption,Peak,0.15150000000,UK,P,6,0,2015
 nga,Evening,12.47950000000,UK,P,7,12.552,2015
+bog,Evening,11.84850000000,UK,P,7,10.019,2015
 biomass,Evening,11.84850000000,UK,P,7,10.019,2015
 elc,Evening,45.82250000000,UK,P,7,43.34267522,2015
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2015
@@ -518,6 +526,7 @@ ser.refrigeration,Evening,2.29750000000,UK,P,7,0,2015
 ser.hot-water.high-consumption,Evening,0.25230000000,UK,P,7,0,2015
 ser.hot-water.low-consumption,Evening,0.33230000000,UK,P,7,0,2015
 nga,Night,12.47950000000,UK,S,8,12.552,2015
+bog,Night,11.84850000000,UK,S,8,10.019,2015
 biomass,Night,11.84850000000,UK,S,8,10.019,2015
 elc,Night,45.82250000000,UK,S,8,43.34267522,2015
 oil,Night,19.79440000000,UK,S,8,19.7944343,2015
@@ -537,6 +546,7 @@ ser.refrigeration,Night,4.02070000000,UK,S,8,0,2015
 ser.hot-water.high-consumption,Night,0.42020000000,UK,S,8,0,2015
 ser.hot-water.low-consumption,Night,0.51410000000,UK,S,8,0,2015
 nga,Day,12.47950000000,UK,S,9,12.552,2015
+bog,Day,11.84850000000,UK,S,9,10.019,2015
 biomass,Day,11.84850000000,UK,S,9,10.019,2015
 elc,Day,45.82250000000,UK,S,9,43.34267522,2015
 oil,Day,19.79440000000,UK,S,9,19.7944343,2015
@@ -556,6 +566,7 @@ ser.refrigeration,Day,5.74380000000,UK,S,9,0,2015
 ser.hot-water.high-consumption,Day,0.75380000000,UK,S,9,0,2015
 ser.hot-water.low-consumption,Day,2.45800000000,UK,S,9,0,2015
 nga,Peak,12.47950000000,UK,S,10,12.552,2015
+bog,Peak,11.84850000000,UK,S,10,10.019,2015
 biomass,Peak,11.84850000000,UK,S,10,10.019,2015
 elc,Peak,45.82250000000,UK,S,10,43.34267522,2015
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2015
@@ -574,6 +585,7 @@ ser.refrigeration,Peak,1.72310000000,UK,S,10,0,2015
 ser.hot-water.high-consumption,Peak,0.15370000000,UK,S,10,0,2015
 ser.hot-water.low-consumption,Peak,0.15210000000,UK,S,10,0,2015
 nga,Evening,12.47950000000,UK,S,11,12.552,2015
+bog,Evening,11.84850000000,UK,S,11,10.019,2015
 biomass,Evening,11.84850000000,UK,S,11,10.019,2015
 elc,Evening,45.82250000000,UK,S,11,43.34267522,2015
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2015
@@ -592,6 +604,7 @@ ser.refrigeration,Evening,2.29750000000,UK,S,11,0,2015
 ser.hot-water.high-consumption,Evening,0.30570000000,UK,S,11,0,2015
 ser.hot-water.low-consumption,Evening,0.33880000000,UK,S,11,0,2015
 nga,Night,12.47950000000,UK,A,12,12.552,2015
+bog,Night,11.84850000000,UK,A,12,10.019,2015
 biomass,Night,11.84850000000,UK,A,12,10.019,2015
 elc,Night,45.82250000000,UK,A,12,43.34267522,2015
 oil,Night,19.79440000000,UK,A,12,19.7944343,2015
@@ -611,6 +624,7 @@ ser.refrigeration,Night,4.02070000000,UK,A,12,0,2015
 ser.hot-water.high-consumption,Night,0.37480000000,UK,A,12,0,2015
 ser.hot-water.low-consumption,Night,0.48390000000,UK,A,12,0,2015
 nga,Day,12.47950000000,UK,A,13,12.552,2015
+bog,Day,11.84850000000,UK,A,13,10.019,2015
 biomass,Day,11.84850000000,UK,A,13,10.019,2015
 elc,Day,45.82250000000,UK,A,13,43.34267522,2015
 oil,Day,19.79440000000,UK,A,13,19.7944343,2015
@@ -630,6 +644,7 @@ ser.refrigeration,Day,5.74380000000,UK,A,13,0,2015
 ser.hot-water.high-consumption,Day,0.58040000000,UK,A,13,0,2015
 ser.hot-water.low-consumption,Day,2.28010000000,UK,A,13,0,2015
 nga,Peak,12.47950000000,UK,A,14,12.552,2015
+bog,Peak,11.84850000000,UK,A,14,10.019,2015
 biomass,Peak,11.84850000000,UK,A,14,10.019,2015
 elc,Peak,45.82250000000,UK,A,14,43.34267522,2015
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2015
@@ -648,6 +663,7 @@ ser.refrigeration,Peak,1.72310000000,UK,A,14,0,2015
 ser.hot-water.high-consumption,Peak,0.13220000000,UK,A,14,0,2015
 ser.hot-water.low-consumption,Peak,0.15150000000,UK,A,14,0,2015
 nga,Evening,12.47950000000,UK,A,15,12.552,2015
+bog,Evening,11.84850000000,UK,A,15,10.019,2015
 biomass,Evening,11.84850000000,UK,A,15,10.019,2015
 elc,Evening,45.82250000000,UK,A,15,43.34267522,2015
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2015
@@ -667,6 +683,7 @@ ser.refrigeration,Evening,2.29750000000,UK,A,15,0,2015
 ser.hot-water.high-consumption,Evening,0.25370000000,UK,A,15,0,2015
 ser.hot-water.low-consumption,Evening,0.33250000000,UK,A,15,0,2015
 nga,Night,11.08330000000,UK,W,0,12.552,2020
+bog,Night,12.69270000000,UK,W,0,10.019,2020
 biomass,Night,12.69270000000,UK,W,0,10.019,2020
 elc,Night,57.16670000000,UK,W,0,43.34267522,2020
 oil,Night,19.79440000000,UK,W,0,19.7944343,2020
@@ -682,11 +699,12 @@ ser.space-heat.high-consumption,Night,6.14110000000,UK,W,0,0,2020
 ser.space-heat.low-consumption,Night,1.94220000000,UK,W,0,0,2020
 ser.lighting.office,Night,2.26830000000,UK,W,0,0,2020
 ser.lighting.other,Night,3.10350000000,UK,W,0,0,2020
-ser.other,Night,2.94750000000,UK,W,0,0,2020
+ser.other,Night,2.95120000000,UK,W,0,0,2020
 ser.refrigeration,Night,8.66380000000,UK,W,0,0,2020
 ser.hot-water.high-consumption,Night,2.67630000000,UK,W,0,0,2020
 ser.hot-water.low-consumption,Night,1.58640000000,UK,W,0,0,2020
 nga,Day,11.08330000000,UK,W,1,12.552,2020
+bog,Day,12.69270000000,UK,W,1,10.019,2020
 biomass,Day,12.69270000000,UK,W,1,10.019,2020
 elc,Day,57.16670000000,UK,W,1,43.34267522,2020
 oil,Day,19.79440000000,UK,W,1,19.7944343,2020
@@ -702,11 +720,12 @@ ser.space-heat.high-consumption,Day,11.67090000000,UK,W,1,0,2020
 ser.space-heat.low-consumption,Day,3.47670000000,UK,W,1,0,2020
 ser.lighting.office,Day,3.24040000000,UK,W,1,0,2020
 ser.lighting.other,Day,4.43360000000,UK,W,1,0,2020
-ser.other,Day,4.21070000000,UK,W,1,0,2020
+ser.other,Day,4.21600000000,UK,W,1,0,2020
 ser.refrigeration,Day,12.37690000000,UK,W,1,0,2020
 ser.hot-water.high-consumption,Day,3.32510000000,UK,W,1,0,2020
 ser.hot-water.low-consumption,Day,5.75550000000,UK,W,1,0,2020
 nga,Peak,11.08330000000,UK,W,2,12.552,2020
+bog,Peak,12.69270000000,UK,W,2,10.019,2020
 biomass,Peak,12.69270000000,UK,W,2,10.019,2020
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2020
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2020
@@ -721,11 +740,12 @@ ser.space-heat.high-consumption,Peak,1.99190000000,UK,W,2,0,2020
 ser.space-heat.low-consumption,Peak,0.92470000000,UK,W,2,0,2020
 ser.lighting.office,Peak,0.97210000000,UK,W,2,0,2020
 ser.lighting.other,Peak,1.33010000000,UK,W,2,0,2020
-ser.other,Peak,1.26320000000,UK,W,2,0,2020
+ser.other,Peak,1.26480000000,UK,W,2,0,2020
 ser.refrigeration,Peak,3.71310000000,UK,W,2,0,2020
 ser.hot-water.high-consumption,Peak,1.11510000000,UK,W,2,0,2020
 ser.hot-water.low-consumption,Peak,0.69400000000,UK,W,2,0,2020
 nga,Evening,11.08330000000,UK,W,3,12.552,2020
+bog,Evening,12.69270000000,UK,W,3,10.019,2020
 biomass,Evening,12.69270000000,UK,W,3,10.019,2020
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2020
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2020
@@ -741,11 +761,12 @@ ser.space-heat.high-consumption,Evening,3.35680000000,UK,W,3,0,2020
 ser.space-heat.low-consumption,Evening,1.17750000000,UK,W,3,0,2020
 ser.lighting.office,Evening,1.29620000000,UK,W,3,0,2020
 ser.lighting.other,Evening,1.77340000000,UK,W,3,0,2020
-ser.other,Evening,1.68430000000,UK,W,3,0,2020
+ser.other,Evening,1.68640000000,UK,W,3,0,2020
 ser.refrigeration,Evening,4.95080000000,UK,W,3,0,2020
 ser.hot-water.high-consumption,Evening,1.58410000000,UK,W,3,0,2020
 ser.hot-water.low-consumption,Evening,0.83530000000,UK,W,3,0,2020
 nga,Night,11.08330000000,UK,P,4,12.552,2020
+bog,Night,12.69270000000,UK,P,4,10.019,2020
 biomass,Night,12.69270000000,UK,P,4,10.019,2020
 elc,Night,57.16670000000,UK,P,4,43.34267522,2020
 oil,Night,19.79440000000,UK,P,4,19.7944343,2020
@@ -761,11 +782,12 @@ ser.space-heat.high-consumption,Night,5.73370000000,UK,P,4,0,2020
 ser.space-heat.low-consumption,Night,1.87350000000,UK,P,4,0,2020
 ser.lighting.office,Night,2.26830000000,UK,P,4,0,2020
 ser.lighting.other,Night,3.10350000000,UK,P,4,0,2020
-ser.other,Night,2.94750000000,UK,P,4,0,2020
+ser.other,Night,2.95120000000,UK,P,4,0,2020
 ser.refrigeration,Night,8.66380000000,UK,P,4,0,2020
 ser.hot-water.high-consumption,Night,2.69370000000,UK,P,4,0,2020
 ser.hot-water.low-consumption,Night,1.58400000000,UK,P,4,0,2020
 nga,Day,11.08330000000,UK,P,5,12.552,2020
+bog,Day,12.69270000000,UK,P,5,10.019,2020
 biomass,Day,12.69270000000,UK,P,5,10.019,2020
 elc,Day,57.16670000000,UK,P,5,43.34267522,2020
 oil,Day,19.79440000000,UK,P,5,19.7944343,2020
@@ -781,11 +803,12 @@ ser.space-heat.high-consumption,Day,13.53150000000,UK,P,5,0,2020
 ser.space-heat.low-consumption,Day,3.34490000000,UK,P,5,0,2020
 ser.lighting.office,Day,3.24040000000,UK,P,5,0,2020
 ser.lighting.other,Day,4.43360000000,UK,P,5,0,2020
-ser.other,Day,4.21070000000,UK,P,5,0,2020
+ser.other,Day,4.21600000000,UK,P,5,0,2020
 ser.refrigeration,Day,12.37690000000,UK,P,5,0,2020
 ser.hot-water.high-consumption,Day,3.38870000000,UK,P,5,0,2020
 ser.hot-water.low-consumption,Day,5.72650000000,UK,P,5,0,2020
 nga,Peak,11.08330000000,UK,P,6,12.552,2020
+bog,Peak,12.69270000000,UK,P,6,10.019,2020
 biomass,Peak,12.69270000000,UK,P,6,10.019,2020
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2020
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2020
@@ -800,11 +823,12 @@ ser.space-heat.high-consumption,Peak,2.43490000000,UK,P,6,0,2020
 ser.space-heat.low-consumption,Peak,0.87090000000,UK,P,6,0,2020
 ser.lighting.office,Peak,0.97210000000,UK,P,6,0,2020
 ser.lighting.other,Peak,1.33010000000,UK,P,6,0,2020
-ser.other,Peak,1.26320000000,UK,P,6,0,2020
+ser.other,Peak,1.26480000000,UK,P,6,0,2020
 ser.refrigeration,Peak,3.71310000000,UK,P,6,0,2020
 ser.hot-water.high-consumption,Peak,1.12020000000,UK,P,6,0,2020
 ser.hot-water.low-consumption,Peak,0.69400000000,UK,P,6,0,2020
 nga,Evening,11.08330000000,UK,P,7,12.552,2020
+bog,Evening,12.69270000000,UK,P,7,10.019,2020
 biomass,Evening,12.69270000000,UK,P,7,10.019,2020
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2020
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2020
@@ -820,11 +844,12 @@ ser.space-heat.high-consumption,Evening,3.26160000000,UK,P,7,0,2020
 ser.space-heat.low-consumption,Evening,1.10660000000,UK,P,7,0,2020
 ser.lighting.office,Evening,1.29620000000,UK,P,7,0,2020
 ser.lighting.other,Evening,1.77340000000,UK,P,7,0,2020
-ser.other,Evening,1.68430000000,UK,P,7,0,2020
+ser.other,Evening,1.68640000000,UK,P,7,0,2020
 ser.refrigeration,Evening,4.95080000000,UK,P,7,0,2020
 ser.hot-water.high-consumption,Evening,1.59470000000,UK,P,7,0,2020
 ser.hot-water.low-consumption,Evening,0.83530000000,UK,P,7,0,2020
 nga,Night,11.08330000000,UK,S,8,12.552,2020
+bog,Night,12.69270000000,UK,S,8,10.019,2020
 biomass,Night,12.69270000000,UK,S,8,10.019,2020
 elc,Night,57.16670000000,UK,S,8,43.34267522,2020
 oil,Night,19.79440000000,UK,S,8,19.7944343,2020
@@ -840,11 +865,12 @@ ser.space-heat.high-consumption,Night,21.26910000000,UK,S,8,0,2020
 ser.space-heat.low-consumption,Night,3.05550000000,UK,S,8,0,2020
 ser.lighting.office,Night,2.26830000000,UK,S,8,0,2020
 ser.lighting.other,Night,3.10350000000,UK,S,8,0,2020
-ser.other,Night,2.94750000000,UK,S,8,0,2020
+ser.other,Night,2.95120000000,UK,S,8,0,2020
 ser.refrigeration,Night,8.66380000000,UK,S,8,0,2020
 ser.hot-water.high-consumption,Night,2.72290000000,UK,S,8,0,2020
 ser.hot-water.low-consumption,Night,1.60660000000,UK,S,8,0,2020
 nga,Day,11.08330000000,UK,S,9,12.552,2020
+bog,Day,12.69270000000,UK,S,9,10.019,2020
 biomass,Day,12.69270000000,UK,S,9,10.019,2020
 elc,Day,57.16670000000,UK,S,9,43.34267522,2020
 oil,Day,19.79440000000,UK,S,9,19.7944343,2020
@@ -860,11 +886,12 @@ ser.space-heat.high-consumption,Day,12.62570000000,UK,S,9,0,2020
 ser.space-heat.low-consumption,Day,6.35420000000,UK,S,9,0,2020
 ser.lighting.office,Day,3.24040000000,UK,S,9,0,2020
 ser.lighting.other,Day,4.43360000000,UK,S,9,0,2020
-ser.other,Day,4.21070000000,UK,S,9,0,2020
+ser.other,Day,4.21600000000,UK,S,9,0,2020
 ser.refrigeration,Day,12.37690000000,UK,S,9,0,2020
 ser.hot-water.high-consumption,Day,3.53580000000,UK,S,9,0,2020
 ser.hot-water.low-consumption,Day,5.88960000000,UK,S,9,0,2020
 nga,Peak,11.08330000000,UK,S,10,12.552,2020
+bog,Peak,12.69270000000,UK,S,10,10.019,2020
 biomass,Peak,12.69270000000,UK,S,10,10.019,2020
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2020
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2020
@@ -879,11 +906,12 @@ ser.space-heat.high-consumption,Peak,8.84040000000,UK,S,10,0,2020
 ser.space-heat.low-consumption,Peak,1.09890000000,UK,S,10,0,2020
 ser.lighting.office,Peak,0.97210000000,UK,S,10,0,2020
 ser.lighting.other,Peak,1.33010000000,UK,S,10,0,2020
-ser.other,Peak,1.26320000000,UK,S,10,0,2020
+ser.other,Peak,1.26480000000,UK,S,10,0,2020
 ser.refrigeration,Peak,3.71310000000,UK,S,10,0,2020
 ser.hot-water.high-consumption,Peak,1.15180000000,UK,S,10,0,2020
 ser.hot-water.low-consumption,Peak,0.69040000000,UK,S,10,0,2020
 nga,Evening,11.08330000000,UK,S,11,12.552,2020
+bog,Evening,12.69270000000,UK,S,11,10.019,2020
 biomass,Evening,12.69270000000,UK,S,11,10.019,2020
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2020
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2020
@@ -898,11 +926,12 @@ ser.computing,Evening,16.17710000000,UK,S,11,0,2020
 ser.space-heat.low-consumption,Evening,2.00210000000,UK,S,11,0,2020
 ser.lighting.office,Evening,1.29620000000,UK,S,11,0,2020
 ser.lighting.other,Evening,1.77340000000,UK,S,11,0,2020
-ser.other,Evening,1.68430000000,UK,S,11,0,2020
+ser.other,Evening,1.68640000000,UK,S,11,0,2020
 ser.refrigeration,Evening,4.95080000000,UK,S,11,0,2020
 ser.hot-water.high-consumption,Evening,1.62630000000,UK,S,11,0,2020
 ser.hot-water.low-consumption,Evening,0.82580000000,UK,S,11,0,2020
 nga,Night,11.08330000000,UK,A,12,12.552,2020
+bog,Night,12.69270000000,UK,A,12,10.019,2020
 biomass,Night,12.69270000000,UK,A,12,10.019,2020
 elc,Night,57.16670000000,UK,A,12,43.34267522,2020
 oil,Night,19.79440000000,UK,A,12,19.7944343,2020
@@ -918,11 +947,12 @@ ser.space-heat.high-consumption,Night,3.87300000000,UK,A,12,0,2020
 ser.space-heat.low-consumption,Night,1.78980000000,UK,A,12,0,2020
 ser.lighting.office,Night,2.26830000000,UK,A,12,0,2020
 ser.lighting.other,Night,3.10350000000,UK,A,12,0,2020
-ser.other,Night,2.94750000000,UK,A,12,0,2020
+ser.other,Night,2.95120000000,UK,A,12,0,2020
 ser.refrigeration,Night,8.66380000000,UK,A,12,0,2020
 ser.hot-water.high-consumption,Night,2.70990000000,UK,A,12,0,2020
 ser.hot-water.low-consumption,Night,1.58020000000,UK,A,12,0,2020
 nga,Day,11.08330000000,UK,A,13,12.552,2020
+bog,Day,12.69270000000,UK,A,13,10.019,2020
 biomass,Day,12.69270000000,UK,A,13,10.019,2020
 elc,Day,57.16670000000,UK,A,13,43.34267522,2020
 oil,Day,19.79440000000,UK,A,13,19.7944343,2020
@@ -938,11 +968,12 @@ ser.space-heat.high-consumption,Day,10.76250000000,UK,A,13,0,2020
 ser.space-heat.low-consumption,Day,3.04200000000,UK,A,13,0,2020
 ser.lighting.office,Day,3.24040000000,UK,A,13,0,2020
 ser.lighting.other,Day,4.43360000000,UK,A,13,0,2020
-ser.other,Day,4.21070000000,UK,A,13,0,2020
+ser.other,Day,4.21600000000,UK,A,13,0,2020
 ser.refrigeration,Day,12.37690000000,UK,A,13,0,2020
 ser.hot-water.high-consumption,Day,3.44480000000,UK,A,13,0,2020
 ser.hot-water.low-consumption,Day,5.72530000000,UK,A,13,0,2020
 nga,Peak,11.08330000000,UK,A,14,12.552,2020
+bog,Peak,12.69270000000,UK,A,14,10.019,2020
 biomass,Peak,12.69270000000,UK,A,14,10.019,2020
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2020
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2020
@@ -957,11 +988,12 @@ ser.space-heat.high-consumption,Peak,1.82310000000,UK,A,14,0,2020
 ser.space-heat.low-consumption,Peak,0.82800000000,UK,A,14,0,2020
 ser.lighting.office,Peak,0.97210000000,UK,A,14,0,2020
 ser.lighting.other,Peak,1.33010000000,UK,A,14,0,2020
-ser.other,Peak,1.26320000000,UK,A,14,0,2020
+ser.other,Peak,1.26480000000,UK,A,14,0,2020
 ser.refrigeration,Peak,3.71310000000,UK,A,14,0,2020
 ser.hot-water.high-consumption,Peak,1.12730000000,UK,A,14,0,2020
 ser.hot-water.low-consumption,Peak,0.69400000000,UK,A,14,0,2020
 nga,Evening,11.08330000000,UK,A,15,12.552,2020
+bog,Evening,12.69270000000,UK,A,15,10.019,2020
 biomass,Evening,12.69270000000,UK,A,15,10.019,2020
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2020
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2020
@@ -977,11 +1009,12 @@ ser.space-heat.high-consumption,Evening,2.17320000000,UK,A,15,0,2020
 ser.space-heat.low-consumption,Evening,1.04930000000,UK,A,15,0,2020
 ser.lighting.office,Evening,1.29620000000,UK,A,15,0,2020
 ser.lighting.other,Evening,1.77340000000,UK,A,15,0,2020
-ser.other,Evening,1.68430000000,UK,A,15,0,2020
+ser.other,Evening,1.68640000000,UK,A,15,0,2020
 ser.refrigeration,Evening,4.95080000000,UK,A,15,0,2020
 ser.hot-water.high-consumption,Evening,1.60010000000,UK,A,15,0,2020
 ser.hot-water.low-consumption,Evening,0.83320000000,UK,A,15,0,2020
 nga,Night,11.08330000000,UK,W,0,12.552,2025
+bog,Night,12.69270000000,UK,W,0,10.019,2025
 biomass,Night,12.69270000000,UK,W,0,10.019,2025
 elc,Night,57.16670000000,UK,W,0,43.34267522,2025
 oil,Night,19.79440000000,UK,W,0,19.7944343,2025
@@ -1002,6 +1035,7 @@ ser.refrigeration,Night,8.66860000000,UK,W,0,0,2025
 ser.hot-water.high-consumption,Night,3.25200000000,UK,W,0,0,2025
 ser.hot-water.low-consumption,Night,1.17560000000,UK,W,0,0,2025
 nga,Day,11.08330000000,UK,W,1,12.552,2025
+bog,Day,12.69270000000,UK,W,1,10.019,2025
 biomass,Day,12.69270000000,UK,W,1,10.019,2025
 elc,Day,57.16670000000,UK,W,1,43.34267522,2025
 oil,Day,19.79440000000,UK,W,1,19.7944343,2025
@@ -1022,6 +1056,7 @@ ser.refrigeration,Day,12.38380000000,UK,W,1,0,2025
 ser.hot-water.high-consumption,Day,4.09700000000,UK,W,1,0,2025
 ser.hot-water.low-consumption,Day,3.88250000000,UK,W,1,0,2025
 nga,Peak,11.08330000000,UK,W,2,12.552,2025
+bog,Peak,12.69270000000,UK,W,2,10.019,2025
 biomass,Peak,12.69270000000,UK,W,2,10.019,2025
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2025
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2025
@@ -1041,6 +1076,7 @@ ser.refrigeration,Peak,3.71510000000,UK,W,2,0,2025
 ser.hot-water.high-consumption,Peak,1.38180000000,UK,W,2,0,2025
 ser.hot-water.low-consumption,Peak,0.51560000000,UK,W,2,0,2025
 nga,Evening,11.08330000000,UK,W,3,12.552,2025
+bog,Evening,12.69270000000,UK,W,3,10.019,2025
 biomass,Evening,12.69270000000,UK,W,3,10.019,2025
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2025
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2025
@@ -1061,6 +1097,7 @@ ser.refrigeration,Evening,4.95350000000,UK,W,3,0,2025
 ser.hot-water.high-consumption,Evening,1.88310000000,UK,W,3,0,2025
 ser.hot-water.low-consumption,Evening,0.62680000000,UK,W,3,0,2025
 nga,Night,11.08330000000,UK,P,4,12.552,2025
+bog,Night,12.69270000000,UK,P,4,10.019,2025
 biomass,Night,12.69270000000,UK,P,4,10.019,2025
 elc,Night,57.16670000000,UK,P,4,43.34267522,2025
 oil,Night,19.79440000000,UK,P,4,19.7944343,2025
@@ -1081,6 +1118,7 @@ ser.refrigeration,Night,8.66860000000,UK,P,4,0,2025
 ser.hot-water.high-consumption,Night,3.26140000000,UK,P,4,0,2025
 ser.hot-water.low-consumption,Night,1.17430000000,UK,P,4,0,2025
 nga,Day,11.08330000000,UK,P,5,12.552,2025
+bog,Day,12.69270000000,UK,P,5,10.019,2025
 biomass,Day,12.69270000000,UK,P,5,10.019,2025
 elc,Day,57.16670000000,UK,P,5,43.34267522,2025
 oil,Day,19.79440000000,UK,P,5,19.7944343,2025
@@ -1101,6 +1139,7 @@ ser.refrigeration,Day,12.38380000000,UK,P,5,0,2025
 ser.hot-water.high-consumption,Day,4.17360000000,UK,P,5,0,2025
 ser.hot-water.low-consumption,Day,3.85960000000,UK,P,5,0,2025
 nga,Peak,11.08330000000,UK,P,6,12.552,2025
+bog,Peak,12.69270000000,UK,P,6,10.019,2025
 biomass,Peak,12.69270000000,UK,P,6,10.019,2025
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2025
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2025
@@ -1120,6 +1159,7 @@ ser.refrigeration,Peak,3.71510000000,UK,P,6,0,2025
 ser.hot-water.high-consumption,Peak,1.38390000000,UK,P,6,0,2025
 ser.hot-water.low-consumption,Peak,0.51560000000,UK,P,6,0,2025
 nga,Evening,11.08330000000,UK,P,7,12.552,2025
+bog,Evening,12.69270000000,UK,P,7,10.019,2025
 biomass,Evening,12.69270000000,UK,P,7,10.019,2025
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2025
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2025
@@ -1140,6 +1180,7 @@ ser.refrigeration,Evening,4.95350000000,UK,P,7,0,2025
 ser.hot-water.high-consumption,Evening,1.88880000000,UK,P,7,0,2025
 ser.hot-water.low-consumption,Evening,0.62680000000,UK,P,7,0,2025
 nga,Night,11.08330000000,UK,S,8,12.552,2025
+bog,Night,12.69270000000,UK,S,8,10.019,2025
 biomass,Night,12.69270000000,UK,S,8,10.019,2025
 elc,Night,57.16670000000,UK,S,8,43.34267522,2025
 oil,Night,19.79440000000,UK,S,8,19.7944343,2025
@@ -1160,6 +1201,7 @@ ser.refrigeration,Night,8.66860000000,UK,S,8,0,2025
 ser.hot-water.high-consumption,Night,3.26900000000,UK,S,8,0,2025
 ser.hot-water.low-consumption,Night,1.18400000000,UK,S,8,0,2025
 nga,Day,11.08330000000,UK,S,9,12.552,2025
+bog,Day,12.69270000000,UK,S,9,10.019,2025
 biomass,Day,12.69270000000,UK,S,9,10.019,2025
 elc,Day,57.16670000000,UK,S,9,43.34267522,2025
 oil,Day,19.79440000000,UK,S,9,19.7944343,2025
@@ -1180,6 +1222,7 @@ ser.refrigeration,Day,12.38380000000,UK,S,9,0,2025
 ser.hot-water.high-consumption,Day,4.22480000000,UK,S,9,0,2025
 ser.hot-water.low-consumption,Day,3.95280000000,UK,S,9,0,2025
 nga,Peak,11.08330000000,UK,S,10,12.552,2025
+bog,Peak,12.69270000000,UK,S,10,10.019,2025
 biomass,Peak,12.69270000000,UK,S,10,10.019,2025
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2025
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2025
@@ -1199,6 +1242,7 @@ ser.refrigeration,Peak,3.71510000000,UK,S,10,0,2025
 ser.hot-water.high-consumption,Peak,1.39740000000,UK,S,10,0,2025
 ser.hot-water.low-consumption,Peak,0.51340000000,UK,S,10,0,2025
 nga,Evening,11.08330000000,UK,S,11,12.552,2025
+bog,Evening,12.69270000000,UK,S,11,10.019,2025
 biomass,Evening,12.69270000000,UK,S,11,10.019,2025
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2025
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2025
@@ -1218,6 +1262,7 @@ ser.refrigeration,Evening,4.95350000000,UK,S,11,0,2025
 ser.hot-water.high-consumption,Evening,1.89860000000,UK,S,11,0,2025
 ser.hot-water.low-consumption,Evening,0.62090000000,UK,S,11,0,2025
 nga,Night,11.08330000000,UK,A,12,12.552,2025
+bog,Night,12.69270000000,UK,A,12,10.019,2025
 biomass,Night,12.69270000000,UK,A,12,10.019,2025
 elc,Night,57.16670000000,UK,A,12,43.34267522,2025
 oil,Night,19.79440000000,UK,A,12,19.7944343,2025
@@ -1238,6 +1283,7 @@ ser.refrigeration,Night,8.66860000000,UK,A,12,0,2025
 ser.hot-water.high-consumption,Night,3.27040000000,UK,A,12,0,2025
 ser.hot-water.low-consumption,Night,1.17220000000,UK,A,12,0,2025
 nga,Day,11.08330000000,UK,A,13,12.552,2025
+bog,Day,12.69270000000,UK,A,13,10.019,2025
 biomass,Day,12.69270000000,UK,A,13,10.019,2025
 elc,Day,57.16670000000,UK,A,13,43.34267522,2025
 oil,Day,19.79440000000,UK,A,13,19.7944343,2025
@@ -1258,6 +1304,7 @@ ser.refrigeration,Day,12.38380000000,UK,A,13,0,2025
 ser.hot-water.high-consumption,Day,4.24550000000,UK,A,13,0,2025
 ser.hot-water.low-consumption,Day,3.85800000000,UK,A,13,0,2025
 nga,Peak,11.08330000000,UK,A,14,12.552,2025
+bog,Peak,12.69270000000,UK,A,14,10.019,2025
 biomass,Peak,12.69270000000,UK,A,14,10.019,2025
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2025
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2025
@@ -1277,6 +1324,7 @@ ser.refrigeration,Peak,3.71510000000,UK,A,14,0,2025
 ser.hot-water.high-consumption,Peak,1.38770000000,UK,A,14,0,2025
 ser.hot-water.low-consumption,Peak,0.51560000000,UK,A,14,0,2025
 nga,Evening,11.08330000000,UK,A,15,12.552,2025
+bog,Evening,12.69270000000,UK,A,15,10.019,2025
 biomass,Evening,12.69270000000,UK,A,15,10.019,2025
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2025
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2025
@@ -1297,6 +1345,7 @@ ser.refrigeration,Evening,4.95350000000,UK,A,15,0,2025
 ser.hot-water.high-consumption,Evening,1.89160000000,UK,A,15,0,2025
 ser.hot-water.low-consumption,Evening,0.62570000000,UK,A,15,0,2025
 nga,Night,11.08330000000,UK,W,0,12.552,2030
+bog,Night,12.69270000000,UK,W,0,10.019,2030
 biomass,Night,12.69270000000,UK,W,0,10.019,2030
 elc,Night,57.16670000000,UK,W,0,43.34267522,2030
 oil,Night,19.79440000000,UK,W,0,19.7944343,2030
@@ -1317,6 +1366,7 @@ ser.refrigeration,Night,8.66860000000,UK,W,0,0,2030
 ser.hot-water.high-consumption,Night,3.53520000000,UK,W,0,0,2030
 ser.hot-water.low-consumption,Night,0.80820000000,UK,W,0,0,2030
 nga,Day,11.08330000000,UK,W,1,12.552,2030
+bog,Day,12.69270000000,UK,W,1,10.019,2030
 biomass,Day,12.69270000000,UK,W,1,10.019,2030
 elc,Day,57.16670000000,UK,W,1,43.34267522,2030
 oil,Day,19.79440000000,UK,W,1,19.7944343,2030
@@ -1337,6 +1387,7 @@ ser.refrigeration,Day,12.38370000000,UK,W,1,0,2030
 ser.hot-water.high-consumption,Day,5.05020000000,UK,W,1,0,2030
 ser.hot-water.low-consumption,Day,1.15460000000,UK,W,1,0,2030
 nga,Peak,11.08330000000,UK,W,2,12.552,2030
+bog,Peak,12.69270000000,UK,W,2,10.019,2030
 biomass,Peak,12.69270000000,UK,W,2,10.019,2030
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2030
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2030
@@ -1356,6 +1407,7 @@ ser.refrigeration,Peak,3.71510000000,UK,W,2,0,2030
 ser.hot-water.high-consumption,Peak,1.51510000000,UK,W,2,0,2030
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,W,2,0,2030
 nga,Evening,11.08330000000,UK,W,3,12.552,2030
+bog,Evening,12.69270000000,UK,W,3,10.019,2030
 biomass,Evening,12.69270000000,UK,W,3,10.019,2030
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2030
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2030
@@ -1376,6 +1428,7 @@ ser.refrigeration,Evening,4.95350000000,UK,W,3,0,2030
 ser.hot-water.high-consumption,Evening,2.02010000000,UK,W,3,0,2030
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,W,3,0,2030
 nga,Night,11.08330000000,UK,P,4,12.552,2030
+bog,Night,12.69270000000,UK,P,4,10.019,2030
 biomass,Night,12.69270000000,UK,P,4,10.019,2030
 elc,Night,57.16670000000,UK,P,4,43.34267522,2030
 oil,Night,19.79440000000,UK,P,4,19.7944343,2030
@@ -1396,6 +1449,7 @@ ser.refrigeration,Night,8.66860000000,UK,P,4,0,2030
 ser.hot-water.high-consumption,Night,3.53520000000,UK,P,4,0,2030
 ser.hot-water.low-consumption,Night,0.80820000000,UK,P,4,0,2030
 nga,Day,11.08330000000,UK,P,5,12.552,2030
+bog,Day,12.69270000000,UK,P,5,10.019,2030
 biomass,Day,12.69270000000,UK,P,5,10.019,2030
 elc,Day,57.16670000000,UK,P,5,43.34267522,2030
 oil,Day,19.79440000000,UK,P,5,19.7944343,2030
@@ -1416,6 +1470,7 @@ ser.refrigeration,Day,12.38370000000,UK,P,5,0,2030
 ser.hot-water.high-consumption,Day,5.05020000000,UK,P,5,0,2030
 ser.hot-water.low-consumption,Day,1.15460000000,UK,P,5,0,2030
 nga,Peak,11.08330000000,UK,P,6,12.552,2030
+bog,Peak,12.69270000000,UK,P,6,10.019,2030
 biomass,Peak,12.69270000000,UK,P,6,10.019,2030
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2030
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2030
@@ -1435,6 +1490,7 @@ ser.refrigeration,Peak,3.71510000000,UK,P,6,0,2030
 ser.hot-water.high-consumption,Peak,1.51510000000,UK,P,6,0,2030
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,P,6,0,2030
 nga,Evening,11.08330000000,UK,P,7,12.552,2030
+bog,Evening,12.69270000000,UK,P,7,10.019,2030
 biomass,Evening,12.69270000000,UK,P,7,10.019,2030
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2030
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2030
@@ -1455,6 +1511,7 @@ ser.refrigeration,Evening,4.95350000000,UK,P,7,0,2030
 ser.hot-water.high-consumption,Evening,2.02010000000,UK,P,7,0,2030
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,P,7,0,2030
 nga,Night,11.08330000000,UK,S,8,12.552,2030
+bog,Night,12.69270000000,UK,S,8,10.019,2030
 biomass,Night,12.69270000000,UK,S,8,10.019,2030
 elc,Night,57.16670000000,UK,S,8,43.34267522,2030
 oil,Night,19.79440000000,UK,S,8,19.7944343,2030
@@ -1475,6 +1532,7 @@ ser.refrigeration,Night,8.66860000000,UK,S,8,0,2030
 ser.hot-water.high-consumption,Night,3.53520000000,UK,S,8,0,2030
 ser.hot-water.low-consumption,Night,0.80820000000,UK,S,8,0,2030
 nga,Day,11.08330000000,UK,S,9,12.552,2030
+bog,Day,12.69270000000,UK,S,9,10.019,2030
 biomass,Day,12.69270000000,UK,S,9,10.019,2030
 elc,Day,57.16670000000,UK,S,9,43.34267522,2030
 oil,Day,19.79440000000,UK,S,9,19.7944343,2030
@@ -1495,6 +1553,7 @@ ser.refrigeration,Day,12.38370000000,UK,S,9,0,2030
 ser.hot-water.high-consumption,Day,5.05020000000,UK,S,9,0,2030
 ser.hot-water.low-consumption,Day,1.15460000000,UK,S,9,0,2030
 nga,Peak,11.08330000000,UK,S,10,12.552,2030
+bog,Peak,12.69270000000,UK,S,10,10.019,2030
 biomass,Peak,12.69270000000,UK,S,10,10.019,2030
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2030
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2030
@@ -1514,6 +1573,7 @@ ser.refrigeration,Peak,3.71510000000,UK,S,10,0,2030
 ser.hot-water.high-consumption,Peak,1.51510000000,UK,S,10,0,2030
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,S,10,0,2030
 nga,Evening,11.08330000000,UK,S,11,12.552,2030
+bog,Evening,12.69270000000,UK,S,11,10.019,2030
 biomass,Evening,12.69270000000,UK,S,11,10.019,2030
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2030
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2030
@@ -1533,6 +1593,7 @@ ser.refrigeration,Evening,4.95350000000,UK,S,11,0,2030
 ser.hot-water.high-consumption,Evening,2.02010000000,UK,S,11,0,2030
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,S,11,0,2030
 nga,Night,11.08330000000,UK,A,12,12.552,2030
+bog,Night,12.69270000000,UK,A,12,10.019,2030
 biomass,Night,12.69270000000,UK,A,12,10.019,2030
 elc,Night,57.16670000000,UK,A,12,43.34267522,2030
 oil,Night,19.79440000000,UK,A,12,19.7944343,2030
@@ -1553,6 +1614,7 @@ ser.refrigeration,Night,8.66860000000,UK,A,12,0,2030
 ser.hot-water.high-consumption,Night,3.53520000000,UK,A,12,0,2030
 ser.hot-water.low-consumption,Night,0.80820000000,UK,A,12,0,2030
 nga,Day,11.08330000000,UK,A,13,12.552,2030
+bog,Day,12.69270000000,UK,A,13,10.019,2030
 biomass,Day,12.69270000000,UK,A,13,10.019,2030
 elc,Day,57.16670000000,UK,A,13,43.34267522,2030
 oil,Day,19.79440000000,UK,A,13,19.7944343,2030
@@ -1573,6 +1635,7 @@ ser.refrigeration,Day,12.38370000000,UK,A,13,0,2030
 ser.hot-water.high-consumption,Day,5.05020000000,UK,A,13,0,2030
 ser.hot-water.low-consumption,Day,1.15460000000,UK,A,13,0,2030
 nga,Peak,11.08330000000,UK,A,14,12.552,2030
+bog,Peak,12.69270000000,UK,A,14,10.019,2030
 biomass,Peak,12.69270000000,UK,A,14,10.019,2030
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2030
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2030
@@ -1592,6 +1655,7 @@ ser.refrigeration,Peak,3.71510000000,UK,A,14,0,2030
 ser.hot-water.high-consumption,Peak,1.51510000000,UK,A,14,0,2030
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,A,14,0,2030
 nga,Evening,11.08330000000,UK,A,15,12.552,2030
+bog,Evening,12.69270000000,UK,A,15,10.019,2030
 biomass,Evening,12.69270000000,UK,A,15,10.019,2030
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2030
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2030
@@ -1612,6 +1676,7 @@ ser.refrigeration,Evening,4.95350000000,UK,A,15,0,2030
 ser.hot-water.high-consumption,Evening,2.02010000000,UK,A,15,0,2030
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,A,15,0,2030
 nga,Night,11.08330000000,UK,W,0,12.552,2035
+bog,Night,12.69270000000,UK,W,0,10.019,2035
 biomass,Night,12.69270000000,UK,W,0,10.019,2035
 elc,Night,57.16670000000,UK,W,0,43.34267522,2035
 oil,Night,19.79440000000,UK,W,0,19.7944343,2035
@@ -1632,6 +1697,7 @@ ser.refrigeration,Night,8.67940000000,UK,W,0,0,2035
 ser.hot-water.high-consumption,Night,3.74980000000,UK,W,0,0,2035
 ser.hot-water.low-consumption,Night,0.80820000000,UK,W,0,0,2035
 nga,Day,11.08330000000,UK,W,1,12.552,2035
+bog,Day,12.69270000000,UK,W,1,10.019,2035
 biomass,Day,12.69270000000,UK,W,1,10.019,2035
 elc,Day,57.16670000000,UK,W,1,43.34267522,2035
 oil,Day,19.79440000000,UK,W,1,19.7944343,2035
@@ -1652,6 +1718,7 @@ ser.refrigeration,Day,12.39910000000,UK,W,1,0,2035
 ser.hot-water.high-consumption,Day,5.35690000000,UK,W,1,0,2035
 ser.hot-water.low-consumption,Day,1.15460000000,UK,W,1,0,2035
 nga,Peak,11.08330000000,UK,W,2,12.552,2035
+bog,Peak,12.69270000000,UK,W,2,10.019,2035
 biomass,Peak,12.69270000000,UK,W,2,10.019,2035
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2035
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2035
@@ -1671,6 +1738,7 @@ ser.refrigeration,Peak,3.71970000000,UK,W,2,0,2035
 ser.hot-water.high-consumption,Peak,1.60710000000,UK,W,2,0,2035
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,W,2,0,2035
 nga,Evening,11.08330000000,UK,W,3,12.552,2035
+bog,Evening,12.69270000000,UK,W,3,10.019,2035
 biomass,Evening,12.69270000000,UK,W,3,10.019,2035
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2035
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2035
@@ -1691,6 +1759,7 @@ ser.refrigeration,Evening,4.95960000000,UK,W,3,0,2035
 ser.hot-water.high-consumption,Evening,2.14280000000,UK,W,3,0,2035
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,W,3,0,2035
 nga,Night,11.08330000000,UK,P,4,12.552,2035
+bog,Night,12.69270000000,UK,P,4,10.019,2035
 biomass,Night,12.69270000000,UK,P,4,10.019,2035
 elc,Night,57.16670000000,UK,P,4,43.34267522,2035
 oil,Night,19.79440000000,UK,P,4,19.7944343,2035
@@ -1711,6 +1780,7 @@ ser.refrigeration,Night,8.67940000000,UK,P,4,0,2035
 ser.hot-water.high-consumption,Night,3.74980000000,UK,P,4,0,2035
 ser.hot-water.low-consumption,Night,0.80820000000,UK,P,4,0,2035
 nga,Day,11.08330000000,UK,P,5,12.552,2035
+bog,Day,12.69270000000,UK,P,5,10.019,2035
 biomass,Day,12.69270000000,UK,P,5,10.019,2035
 elc,Day,57.16670000000,UK,P,5,43.34267522,2035
 oil,Day,19.79440000000,UK,P,5,19.7944343,2035
@@ -1731,6 +1801,7 @@ ser.refrigeration,Day,12.39910000000,UK,P,5,0,2035
 ser.hot-water.high-consumption,Day,5.35690000000,UK,P,5,0,2035
 ser.hot-water.low-consumption,Day,1.15460000000,UK,P,5,0,2035
 nga,Peak,11.08330000000,UK,P,6,12.552,2035
+bog,Peak,12.69270000000,UK,P,6,10.019,2035
 biomass,Peak,12.69270000000,UK,P,6,10.019,2035
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2035
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2035
@@ -1750,6 +1821,7 @@ ser.refrigeration,Peak,3.71970000000,UK,P,6,0,2035
 ser.hot-water.high-consumption,Peak,1.60710000000,UK,P,6,0,2035
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,P,6,0,2035
 nga,Evening,11.08330000000,UK,P,7,12.552,2035
+bog,Evening,12.69270000000,UK,P,7,10.019,2035
 biomass,Evening,12.69270000000,UK,P,7,10.019,2035
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2035
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2035
@@ -1770,6 +1842,7 @@ ser.refrigeration,Evening,4.95960000000,UK,P,7,0,2035
 ser.hot-water.high-consumption,Evening,2.14280000000,UK,P,7,0,2035
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,P,7,0,2035
 nga,Night,11.08330000000,UK,S,8,12.552,2035
+bog,Night,12.69270000000,UK,S,8,10.019,2035
 biomass,Night,12.69270000000,UK,S,8,10.019,2035
 elc,Night,57.16670000000,UK,S,8,43.34267522,2035
 oil,Night,19.79440000000,UK,S,8,19.7944343,2035
@@ -1790,6 +1863,7 @@ ser.refrigeration,Night,8.67940000000,UK,S,8,0,2035
 ser.hot-water.high-consumption,Night,3.74980000000,UK,S,8,0,2035
 ser.hot-water.low-consumption,Night,0.80820000000,UK,S,8,0,2035
 nga,Day,11.08330000000,UK,S,9,12.552,2035
+bog,Day,12.69270000000,UK,S,9,10.019,2035
 biomass,Day,12.69270000000,UK,S,9,10.019,2035
 elc,Day,57.16670000000,UK,S,9,43.34267522,2035
 oil,Day,19.79440000000,UK,S,9,19.7944343,2035
@@ -1810,6 +1884,7 @@ ser.refrigeration,Day,12.39910000000,UK,S,9,0,2035
 ser.hot-water.high-consumption,Day,5.35690000000,UK,S,9,0,2035
 ser.hot-water.low-consumption,Day,1.15460000000,UK,S,9,0,2035
 nga,Peak,11.08330000000,UK,S,10,12.552,2035
+bog,Peak,12.69270000000,UK,S,10,10.019,2035
 biomass,Peak,12.69270000000,UK,S,10,10.019,2035
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2035
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2035
@@ -1829,6 +1904,7 @@ ser.refrigeration,Peak,3.71970000000,UK,S,10,0,2035
 ser.hot-water.high-consumption,Peak,1.60710000000,UK,S,10,0,2035
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,S,10,0,2035
 nga,Evening,11.08330000000,UK,S,11,12.552,2035
+bog,Evening,12.69270000000,UK,S,11,10.019,2035
 biomass,Evening,12.69270000000,UK,S,11,10.019,2035
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2035
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2035
@@ -1848,6 +1924,7 @@ ser.refrigeration,Evening,4.95960000000,UK,S,11,0,2035
 ser.hot-water.high-consumption,Evening,2.14280000000,UK,S,11,0,2035
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,S,11,0,2035
 nga,Night,11.08330000000,UK,A,12,12.552,2035
+bog,Night,12.69270000000,UK,A,12,10.019,2035
 biomass,Night,12.69270000000,UK,A,12,10.019,2035
 elc,Night,57.16670000000,UK,A,12,43.34267522,2035
 oil,Night,19.79440000000,UK,A,12,19.7944343,2035
@@ -1868,6 +1945,7 @@ ser.refrigeration,Night,8.67940000000,UK,A,12,0,2035
 ser.hot-water.high-consumption,Night,3.74980000000,UK,A,12,0,2035
 ser.hot-water.low-consumption,Night,0.80820000000,UK,A,12,0,2035
 nga,Day,11.08330000000,UK,A,13,12.552,2035
+bog,Day,12.69270000000,UK,A,13,10.019,2035
 biomass,Day,12.69270000000,UK,A,13,10.019,2035
 elc,Day,57.16670000000,UK,A,13,43.34267522,2035
 oil,Day,19.79440000000,UK,A,13,19.7944343,2035
@@ -1888,6 +1966,7 @@ ser.refrigeration,Day,12.39910000000,UK,A,13,0,2035
 ser.hot-water.high-consumption,Day,5.35690000000,UK,A,13,0,2035
 ser.hot-water.low-consumption,Day,1.15460000000,UK,A,13,0,2035
 nga,Peak,11.08330000000,UK,A,14,12.552,2035
+bog,Peak,12.69270000000,UK,A,14,10.019,2035
 biomass,Peak,12.69270000000,UK,A,14,10.019,2035
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2035
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2035
@@ -1907,6 +1986,7 @@ ser.refrigeration,Peak,3.71970000000,UK,A,14,0,2035
 ser.hot-water.high-consumption,Peak,1.60710000000,UK,A,14,0,2035
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,A,14,0,2035
 nga,Evening,11.08330000000,UK,A,15,12.552,2035
+bog,Evening,12.69270000000,UK,A,15,10.019,2035
 biomass,Evening,12.69270000000,UK,A,15,10.019,2035
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2035
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2035
@@ -1927,6 +2007,7 @@ ser.refrigeration,Evening,4.95960000000,UK,A,15,0,2035
 ser.hot-water.high-consumption,Evening,2.14280000000,UK,A,15,0,2035
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,A,15,0,2035
 nga,Night,11.08330000000,UK,W,0,12.552,2040
+bog,Night,12.69270000000,UK,W,0,10.019,2040
 biomass,Night,12.69270000000,UK,W,0,10.019,2040
 elc,Night,57.16670000000,UK,W,0,43.34267522,2040
 oil,Night,19.79440000000,UK,W,0,19.7944343,2040
@@ -1947,6 +2028,7 @@ ser.refrigeration,Night,8.68450000000,UK,W,0,0,2040
 ser.hot-water.high-consumption,Night,3.85100000000,UK,W,0,0,2040
 ser.hot-water.low-consumption,Night,0.80820000000,UK,W,0,0,2040
 nga,Day,11.08330000000,UK,W,1,12.552,2040
+bog,Day,12.69270000000,UK,W,1,10.019,2040
 biomass,Day,12.69270000000,UK,W,1,10.019,2040
 elc,Day,57.16670000000,UK,W,1,43.34267522,2040
 oil,Day,19.79440000000,UK,W,1,19.7944343,2040
@@ -1967,6 +2049,7 @@ ser.refrigeration,Day,12.40640000000,UK,W,1,0,2040
 ser.hot-water.high-consumption,Day,5.50140000000,UK,W,1,0,2040
 ser.hot-water.low-consumption,Day,1.15460000000,UK,W,1,0,2040
 nga,Peak,11.08330000000,UK,W,2,12.552,2040
+bog,Peak,12.69270000000,UK,W,2,10.019,2040
 biomass,Peak,12.69270000000,UK,W,2,10.019,2040
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2040
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2040
@@ -1986,6 +2069,7 @@ ser.refrigeration,Peak,3.72190000000,UK,W,2,0,2040
 ser.hot-water.high-consumption,Peak,1.65040000000,UK,W,2,0,2040
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,W,2,0,2040
 nga,Evening,11.08330000000,UK,W,3,12.552,2040
+bog,Evening,12.69270000000,UK,W,3,10.019,2040
 biomass,Evening,12.69270000000,UK,W,3,10.019,2040
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2040
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2040
@@ -2006,6 +2090,7 @@ ser.refrigeration,Evening,4.96260000000,UK,W,3,0,2040
 ser.hot-water.high-consumption,Evening,2.20060000000,UK,W,3,0,2040
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,W,3,0,2040
 nga,Night,11.08330000000,UK,P,4,12.552,2040
+bog,Night,12.69270000000,UK,P,4,10.019,2040
 biomass,Night,12.69270000000,UK,P,4,10.019,2040
 elc,Night,57.16670000000,UK,P,4,43.34267522,2040
 oil,Night,19.79440000000,UK,P,4,19.7944343,2040
@@ -2026,6 +2111,7 @@ ser.refrigeration,Night,8.68450000000,UK,P,4,0,2040
 ser.hot-water.high-consumption,Night,3.85100000000,UK,P,4,0,2040
 ser.hot-water.low-consumption,Night,0.80820000000,UK,P,4,0,2040
 nga,Day,11.08330000000,UK,P,5,12.552,2040
+bog,Day,12.69270000000,UK,P,5,10.019,2040
 biomass,Day,12.69270000000,UK,P,5,10.019,2040
 elc,Day,57.16670000000,UK,P,5,43.34267522,2040
 oil,Day,19.79440000000,UK,P,5,19.7944343,2040
@@ -2046,6 +2132,7 @@ ser.refrigeration,Day,12.40640000000,UK,P,5,0,2040
 ser.hot-water.high-consumption,Day,5.50140000000,UK,P,5,0,2040
 ser.hot-water.low-consumption,Day,1.15460000000,UK,P,5,0,2040
 nga,Peak,11.08330000000,UK,P,6,12.552,2040
+bog,Peak,12.69270000000,UK,P,6,10.019,2040
 biomass,Peak,12.69270000000,UK,P,6,10.019,2040
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2040
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2040
@@ -2065,6 +2152,7 @@ ser.refrigeration,Peak,3.72190000000,UK,P,6,0,2040
 ser.hot-water.high-consumption,Peak,1.65040000000,UK,P,6,0,2040
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,P,6,0,2040
 nga,Evening,11.08330000000,UK,P,7,12.552,2040
+bog,Evening,12.69270000000,UK,P,7,10.019,2040
 biomass,Evening,12.69270000000,UK,P,7,10.019,2040
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2040
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2040
@@ -2085,6 +2173,7 @@ ser.refrigeration,Evening,4.96260000000,UK,P,7,0,2040
 ser.hot-water.high-consumption,Evening,2.20060000000,UK,P,7,0,2040
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,P,7,0,2040
 nga,Night,11.08330000000,UK,S,8,12.552,2040
+bog,Night,12.69270000000,UK,S,8,10.019,2040
 biomass,Night,12.69270000000,UK,S,8,10.019,2040
 elc,Night,57.16670000000,UK,S,8,43.34267522,2040
 oil,Night,19.79440000000,UK,S,8,19.7944343,2040
@@ -2105,6 +2194,7 @@ ser.refrigeration,Night,8.68450000000,UK,S,8,0,2040
 ser.hot-water.high-consumption,Night,3.85100000000,UK,S,8,0,2040
 ser.hot-water.low-consumption,Night,0.80820000000,UK,S,8,0,2040
 nga,Day,11.08330000000,UK,S,9,12.552,2040
+bog,Day,12.69270000000,UK,S,9,10.019,2040
 biomass,Day,12.69270000000,UK,S,9,10.019,2040
 elc,Day,57.16670000000,UK,S,9,43.34267522,2040
 oil,Day,19.79440000000,UK,S,9,19.7944343,2040
@@ -2125,6 +2215,7 @@ ser.refrigeration,Day,12.40640000000,UK,S,9,0,2040
 ser.hot-water.high-consumption,Day,5.50140000000,UK,S,9,0,2040
 ser.hot-water.low-consumption,Day,1.15460000000,UK,S,9,0,2040
 nga,Peak,11.08330000000,UK,S,10,12.552,2040
+bog,Peak,12.69270000000,UK,S,10,10.019,2040
 biomass,Peak,12.69270000000,UK,S,10,10.019,2040
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2040
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2040
@@ -2144,6 +2235,7 @@ ser.refrigeration,Peak,3.72190000000,UK,S,10,0,2040
 ser.hot-water.high-consumption,Peak,1.65040000000,UK,S,10,0,2040
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,S,10,0,2040
 nga,Evening,11.08330000000,UK,S,11,12.552,2040
+bog,Evening,12.69270000000,UK,S,11,10.019,2040
 biomass,Evening,12.69270000000,UK,S,11,10.019,2040
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2040
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2040
@@ -2163,6 +2255,7 @@ ser.refrigeration,Evening,4.96260000000,UK,S,11,0,2040
 ser.hot-water.high-consumption,Evening,2.20060000000,UK,S,11,0,2040
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,S,11,0,2040
 nga,Night,11.08330000000,UK,A,12,12.552,2040
+bog,Night,12.69270000000,UK,A,12,10.019,2040
 biomass,Night,12.69270000000,UK,A,12,10.019,2040
 elc,Night,57.16670000000,UK,A,12,43.34267522,2040
 oil,Night,19.79440000000,UK,A,12,19.7944343,2040
@@ -2183,6 +2276,7 @@ ser.refrigeration,Night,8.68450000000,UK,A,12,0,2040
 ser.hot-water.high-consumption,Night,3.85100000000,UK,A,12,0,2040
 ser.hot-water.low-consumption,Night,0.80820000000,UK,A,12,0,2040
 nga,Day,11.08330000000,UK,A,13,12.552,2040
+bog,Day,12.69270000000,UK,A,13,10.019,2040
 biomass,Day,12.69270000000,UK,A,13,10.019,2040
 elc,Day,57.16670000000,UK,A,13,43.34267522,2040
 oil,Day,19.79440000000,UK,A,13,19.7944343,2040
@@ -2203,6 +2297,7 @@ ser.refrigeration,Day,12.40640000000,UK,A,13,0,2040
 ser.hot-water.high-consumption,Day,5.50140000000,UK,A,13,0,2040
 ser.hot-water.low-consumption,Day,1.15460000000,UK,A,13,0,2040
 nga,Peak,11.08330000000,UK,A,14,12.552,2040
+bog,Peak,12.69270000000,UK,A,14,10.019,2040
 biomass,Peak,12.69270000000,UK,A,14,10.019,2040
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2040
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2040
@@ -2222,6 +2317,7 @@ ser.refrigeration,Peak,3.72190000000,UK,A,14,0,2040
 ser.hot-water.high-consumption,Peak,1.65040000000,UK,A,14,0,2040
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,A,14,0,2040
 nga,Evening,11.08330000000,UK,A,15,12.552,2040
+bog,Evening,12.69270000000,UK,A,15,10.019,2040
 biomass,Evening,12.69270000000,UK,A,15,10.019,2040
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2040
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2040
@@ -2242,6 +2338,7 @@ ser.refrigeration,Evening,4.96260000000,UK,A,15,0,2040
 ser.hot-water.high-consumption,Evening,2.20060000000,UK,A,15,0,2040
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,A,15,0,2040
 nga,Night,11.08330000000,UK,W,0,12.552,2045
+bog,Night,12.69270000000,UK,W,0,10.019,2045
 biomass,Night,12.69270000000,UK,W,0,10.019,2045
 elc,Night,57.16670000000,UK,W,0,43.34267522,2045
 oil,Night,19.79440000000,UK,W,0,19.7944343,2045
@@ -2262,6 +2359,7 @@ ser.refrigeration,Night,8.68460000000,UK,W,0,0,2045
 ser.hot-water.high-consumption,Night,3.94730000000,UK,W,0,0,2045
 ser.hot-water.low-consumption,Night,0.80820000000,UK,W,0,0,2045
 nga,Day,11.08330000000,UK,W,1,12.552,2045
+bog,Day,12.69270000000,UK,W,1,10.019,2045
 biomass,Day,12.69270000000,UK,W,1,10.019,2045
 elc,Day,57.16670000000,UK,W,1,43.34267522,2045
 oil,Day,19.79440000000,UK,W,1,19.7944343,2045
@@ -2282,6 +2380,7 @@ ser.refrigeration,Day,12.40650000000,UK,W,1,0,2045
 ser.hot-water.high-consumption,Day,5.63900000000,UK,W,1,0,2045
 ser.hot-water.low-consumption,Day,1.15460000000,UK,W,1,0,2045
 nga,Peak,11.08330000000,UK,W,2,12.552,2045
+bog,Peak,12.69270000000,UK,W,2,10.019,2045
 biomass,Peak,12.69270000000,UK,W,2,10.019,2045
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2045
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2045
@@ -2301,6 +2400,7 @@ ser.refrigeration,Peak,3.72200000000,UK,W,2,0,2045
 ser.hot-water.high-consumption,Peak,1.69170000000,UK,W,2,0,2045
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,W,2,0,2045
 nga,Evening,11.08330000000,UK,W,3,12.552,2045
+bog,Evening,12.69270000000,UK,W,3,10.019,2045
 biomass,Evening,12.69270000000,UK,W,3,10.019,2045
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2045
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2045
@@ -2321,6 +2421,7 @@ ser.refrigeration,Evening,4.96260000000,UK,W,3,0,2045
 ser.hot-water.high-consumption,Evening,2.25560000000,UK,W,3,0,2045
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,W,3,0,2045
 nga,Night,11.08330000000,UK,P,4,12.552,2045
+bog,Night,12.69270000000,UK,P,4,10.019,2045
 biomass,Night,12.69270000000,UK,P,4,10.019,2045
 elc,Night,57.16670000000,UK,P,4,43.34267522,2045
 oil,Night,19.79440000000,UK,P,4,19.7944343,2045
@@ -2341,6 +2442,7 @@ ser.refrigeration,Night,8.68460000000,UK,P,4,0,2045
 ser.hot-water.high-consumption,Night,3.94730000000,UK,P,4,0,2045
 ser.hot-water.low-consumption,Night,0.80820000000,UK,P,4,0,2045
 nga,Day,11.08330000000,UK,P,5,12.552,2045
+bog,Day,12.69270000000,UK,P,5,10.019,2045
 biomass,Day,12.69270000000,UK,P,5,10.019,2045
 elc,Day,57.16670000000,UK,P,5,43.34267522,2045
 oil,Day,19.79440000000,UK,P,5,19.7944343,2045
@@ -2361,6 +2463,7 @@ ser.refrigeration,Day,12.40650000000,UK,P,5,0,2045
 ser.hot-water.high-consumption,Day,5.63900000000,UK,P,5,0,2045
 ser.hot-water.low-consumption,Day,1.15460000000,UK,P,5,0,2045
 nga,Peak,11.08330000000,UK,P,6,12.552,2045
+bog,Peak,12.69270000000,UK,P,6,10.019,2045
 biomass,Peak,12.69270000000,UK,P,6,10.019,2045
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2045
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2045
@@ -2380,6 +2483,7 @@ ser.refrigeration,Peak,3.72200000000,UK,P,6,0,2045
 ser.hot-water.high-consumption,Peak,1.69170000000,UK,P,6,0,2045
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,P,6,0,2045
 nga,Evening,11.08330000000,UK,P,7,12.552,2045
+bog,Evening,12.69270000000,UK,P,7,10.019,2045
 biomass,Evening,12.69270000000,UK,P,7,10.019,2045
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2045
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2045
@@ -2400,6 +2504,7 @@ ser.refrigeration,Evening,4.96260000000,UK,P,7,0,2045
 ser.hot-water.high-consumption,Evening,2.25560000000,UK,P,7,0,2045
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,P,7,0,2045
 nga,Night,11.08330000000,UK,S,8,12.552,2045
+bog,Night,12.69270000000,UK,S,8,10.019,2045
 biomass,Night,12.69270000000,UK,S,8,10.019,2045
 elc,Night,57.16670000000,UK,S,8,43.34267522,2045
 oil,Night,19.79440000000,UK,S,8,19.7944343,2045
@@ -2420,6 +2525,7 @@ ser.refrigeration,Night,8.68460000000,UK,S,8,0,2045
 ser.hot-water.high-consumption,Night,3.94730000000,UK,S,8,0,2045
 ser.hot-water.low-consumption,Night,0.80820000000,UK,S,8,0,2045
 nga,Day,11.08330000000,UK,S,9,12.552,2045
+bog,Day,12.69270000000,UK,S,9,10.019,2045
 biomass,Day,12.69270000000,UK,S,9,10.019,2045
 elc,Day,57.16670000000,UK,S,9,43.34267522,2045
 oil,Day,19.79440000000,UK,S,9,19.7944343,2045
@@ -2440,6 +2546,7 @@ ser.refrigeration,Day,12.40650000000,UK,S,9,0,2045
 ser.hot-water.high-consumption,Day,5.63900000000,UK,S,9,0,2045
 ser.hot-water.low-consumption,Day,1.15460000000,UK,S,9,0,2045
 nga,Peak,11.08330000000,UK,S,10,12.552,2045
+bog,Peak,12.69270000000,UK,S,10,10.019,2045
 biomass,Peak,12.69270000000,UK,S,10,10.019,2045
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2045
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2045
@@ -2459,6 +2566,7 @@ ser.refrigeration,Peak,3.72200000000,UK,S,10,0,2045
 ser.hot-water.high-consumption,Peak,1.69170000000,UK,S,10,0,2045
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,S,10,0,2045
 nga,Evening,11.08330000000,UK,S,11,12.552,2045
+bog,Evening,12.69270000000,UK,S,11,10.019,2045
 biomass,Evening,12.69270000000,UK,S,11,10.019,2045
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2045
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2045
@@ -2478,6 +2586,7 @@ ser.refrigeration,Evening,4.96260000000,UK,S,11,0,2045
 ser.hot-water.high-consumption,Evening,2.25560000000,UK,S,11,0,2045
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,S,11,0,2045
 nga,Night,11.08330000000,UK,A,12,12.552,2045
+bog,Night,12.69270000000,UK,A,12,10.019,2045
 biomass,Night,12.69270000000,UK,A,12,10.019,2045
 elc,Night,57.16670000000,UK,A,12,43.34267522,2045
 oil,Night,19.79440000000,UK,A,12,19.7944343,2045
@@ -2498,6 +2607,7 @@ ser.refrigeration,Night,8.68460000000,UK,A,12,0,2045
 ser.hot-water.high-consumption,Night,3.94730000000,UK,A,12,0,2045
 ser.hot-water.low-consumption,Night,0.80820000000,UK,A,12,0,2045
 nga,Day,11.08330000000,UK,A,13,12.552,2045
+bog,Day,12.69270000000,UK,A,13,10.019,2045
 biomass,Day,12.69270000000,UK,A,13,10.019,2045
 elc,Day,57.16670000000,UK,A,13,43.34267522,2045
 oil,Day,19.79440000000,UK,A,13,19.7944343,2045
@@ -2518,6 +2628,7 @@ ser.refrigeration,Day,12.40650000000,UK,A,13,0,2045
 ser.hot-water.high-consumption,Day,5.63900000000,UK,A,13,0,2045
 ser.hot-water.low-consumption,Day,1.15460000000,UK,A,13,0,2045
 nga,Peak,11.08330000000,UK,A,14,12.552,2045
+bog,Peak,12.69270000000,UK,A,14,10.019,2045
 biomass,Peak,12.69270000000,UK,A,14,10.019,2045
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2045
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2045
@@ -2537,6 +2648,7 @@ ser.refrigeration,Peak,3.72200000000,UK,A,14,0,2045
 ser.hot-water.high-consumption,Peak,1.69170000000,UK,A,14,0,2045
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,A,14,0,2045
 nga,Evening,11.08330000000,UK,A,15,12.552,2045
+bog,Evening,12.69270000000,UK,A,15,10.019,2045
 biomass,Evening,12.69270000000,UK,A,15,10.019,2045
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2045
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2045
@@ -2557,6 +2669,7 @@ ser.refrigeration,Evening,4.96260000000,UK,A,15,0,2045
 ser.hot-water.high-consumption,Evening,2.25560000000,UK,A,15,0,2045
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,A,15,0,2045
 nga,Night,11.08330000000,UK,W,0,12.552,2050
+bog,Night,12.69270000000,UK,W,0,10.019,2050
 biomass,Night,12.69270000000,UK,W,0,10.019,2050
 elc,Night,57.16670000000,UK,W,0,43.34267522,2050
 oil,Night,19.79440000000,UK,W,0,19.7944343,2050
@@ -2577,6 +2690,7 @@ ser.refrigeration,Night,8.68510000000,UK,W,0,0,2050
 ser.hot-water.high-consumption,Night,4.03080000000,UK,W,0,0,2050
 ser.hot-water.low-consumption,Night,0.80820000000,UK,W,0,0,2050
 nga,Day,11.08330000000,UK,W,1,12.552,2050
+bog,Day,12.69270000000,UK,W,1,10.019,2050
 biomass,Day,12.69270000000,UK,W,1,10.019,2050
 elc,Day,57.16670000000,UK,W,1,43.34267522,2050
 oil,Day,19.79440000000,UK,W,1,19.7944343,2050
@@ -2597,6 +2711,7 @@ ser.refrigeration,Day,12.40730000000,UK,W,1,0,2050
 ser.hot-water.high-consumption,Day,5.75830000000,UK,W,1,0,2050
 ser.hot-water.low-consumption,Day,1.15460000000,UK,W,1,0,2050
 nga,Peak,11.08330000000,UK,W,2,12.552,2050
+bog,Peak,12.69270000000,UK,W,2,10.019,2050
 biomass,Peak,12.69270000000,UK,W,2,10.019,2050
 elc,Peak,57.16670000000,UK,W,2,43.34267522,2050
 oil,Peak,19.79440000000,UK,W,2,19.7944343,2050
@@ -2616,6 +2731,7 @@ ser.refrigeration,Peak,3.72220000000,UK,W,2,0,2050
 ser.hot-water.high-consumption,Peak,1.72750000000,UK,W,2,0,2050
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,W,2,0,2050
 nga,Evening,11.08330000000,UK,W,3,12.552,2050
+bog,Evening,12.69270000000,UK,W,3,10.019,2050
 biomass,Evening,12.69270000000,UK,W,3,10.019,2050
 elc,Evening,57.16670000000,UK,W,3,43.34267522,2050
 oil,Evening,19.79440000000,UK,W,3,19.7944343,2050
@@ -2636,6 +2752,7 @@ ser.refrigeration,Evening,4.96290000000,UK,W,3,0,2050
 ser.hot-water.high-consumption,Evening,2.30330000000,UK,W,3,0,2050
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,W,3,0,2050
 nga,Night,11.08330000000,UK,P,4,12.552,2050
+bog,Night,12.69270000000,UK,P,4,10.019,2050
 biomass,Night,12.69270000000,UK,P,4,10.019,2050
 elc,Night,57.16670000000,UK,P,4,43.34267522,2050
 oil,Night,19.79440000000,UK,P,4,19.7944343,2050
@@ -2656,6 +2773,7 @@ ser.refrigeration,Night,8.68510000000,UK,P,4,0,2050
 ser.hot-water.high-consumption,Night,4.03080000000,UK,P,4,0,2050
 ser.hot-water.low-consumption,Night,0.80820000000,UK,P,4,0,2050
 nga,Day,11.08330000000,UK,P,5,12.552,2050
+bog,Day,12.69270000000,UK,P,5,10.019,2050
 biomass,Day,12.69270000000,UK,P,5,10.019,2050
 elc,Day,57.16670000000,UK,P,5,43.34267522,2050
 oil,Day,19.79440000000,UK,P,5,19.7944343,2050
@@ -2676,6 +2794,7 @@ ser.refrigeration,Day,12.40730000000,UK,P,5,0,2050
 ser.hot-water.high-consumption,Day,5.75830000000,UK,P,5,0,2050
 ser.hot-water.low-consumption,Day,1.15460000000,UK,P,5,0,2050
 nga,Peak,11.08330000000,UK,P,6,12.552,2050
+bog,Peak,12.69270000000,UK,P,6,10.019,2050
 biomass,Peak,12.69270000000,UK,P,6,10.019,2050
 elc,Peak,57.16670000000,UK,P,6,43.34267522,2050
 oil,Peak,19.79440000000,UK,P,6,19.7944343,2050
@@ -2695,6 +2814,7 @@ ser.refrigeration,Peak,3.72220000000,UK,P,6,0,2050
 ser.hot-water.high-consumption,Peak,1.72750000000,UK,P,6,0,2050
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,P,6,0,2050
 nga,Evening,11.08330000000,UK,P,7,12.552,2050
+bog,Evening,12.69270000000,UK,P,7,10.019,2050
 biomass,Evening,12.69270000000,UK,P,7,10.019,2050
 elc,Evening,57.16670000000,UK,P,7,43.34267522,2050
 oil,Evening,19.79440000000,UK,P,7,19.7944343,2050
@@ -2715,6 +2835,7 @@ ser.refrigeration,Evening,4.96290000000,UK,P,7,0,2050
 ser.hot-water.high-consumption,Evening,2.30330000000,UK,P,7,0,2050
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,P,7,0,2050
 nga,Night,11.08330000000,UK,S,8,12.552,2050
+bog,Night,12.69270000000,UK,S,8,10.019,2050
 biomass,Night,12.69270000000,UK,S,8,10.019,2050
 elc,Night,57.16670000000,UK,S,8,43.34267522,2050
 oil,Night,19.79440000000,UK,S,8,19.7944343,2050
@@ -2735,6 +2856,7 @@ ser.refrigeration,Night,8.68510000000,UK,S,8,0,2050
 ser.hot-water.high-consumption,Night,4.03080000000,UK,S,8,0,2050
 ser.hot-water.low-consumption,Night,0.80820000000,UK,S,8,0,2050
 nga,Day,11.08330000000,UK,S,9,12.552,2050
+bog,Day,12.69270000000,UK,S,9,10.019,2050
 biomass,Day,12.69270000000,UK,S,9,10.019,2050
 elc,Day,57.16670000000,UK,S,9,43.34267522,2050
 oil,Day,19.79440000000,UK,S,9,19.7944343,2050
@@ -2755,6 +2877,7 @@ ser.refrigeration,Day,12.40730000000,UK,S,9,0,2050
 ser.hot-water.high-consumption,Day,5.75830000000,UK,S,9,0,2050
 ser.hot-water.low-consumption,Day,1.15460000000,UK,S,9,0,2050
 nga,Peak,11.08330000000,UK,S,10,12.552,2050
+bog,Peak,12.69270000000,UK,S,10,10.019,2050
 biomass,Peak,12.69270000000,UK,S,10,10.019,2050
 elc,Peak,57.16670000000,UK,S,10,43.34267522,2050
 oil,Peak,19.79440000000,UK,S,10,19.7944343,2050
@@ -2774,6 +2897,7 @@ ser.refrigeration,Peak,3.72220000000,UK,S,10,0,2050
 ser.hot-water.high-consumption,Peak,1.72750000000,UK,S,10,0,2050
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,S,10,0,2050
 nga,Evening,11.08330000000,UK,S,11,12.552,2050
+bog,Evening,12.69270000000,UK,S,11,10.019,2050
 biomass,Evening,12.69270000000,UK,S,11,10.019,2050
 elc,Evening,57.16670000000,UK,S,11,43.34267522,2050
 oil,Evening,19.79440000000,UK,S,11,19.7944343,2050
@@ -2793,6 +2917,7 @@ ser.refrigeration,Evening,4.96290000000,UK,S,11,0,2050
 ser.hot-water.high-consumption,Evening,2.30330000000,UK,S,11,0,2050
 ser.hot-water.low-consumption,Evening,0.46180000000,UK,S,11,0,2050
 nga,Night,11.08330000000,UK,A,12,12.552,2050
+bog,Night,12.69270000000,UK,A,12,10.019,2050
 biomass,Night,12.69270000000,UK,A,12,10.019,2050
 elc,Night,57.16670000000,UK,A,12,43.34267522,2050
 oil,Night,19.79440000000,UK,A,12,19.7944343,2050
@@ -2813,6 +2938,7 @@ ser.refrigeration,Night,8.68510000000,UK,A,12,0,2050
 ser.hot-water.high-consumption,Night,4.03080000000,UK,A,12,0,2050
 ser.hot-water.low-consumption,Night,0.80820000000,UK,A,12,0,2050
 nga,Day,11.08330000000,UK,A,13,12.552,2050
+bog,Day,12.69270000000,UK,A,13,10.019,2050
 biomass,Day,12.69270000000,UK,A,13,10.019,2050
 elc,Day,57.16670000000,UK,A,13,43.34267522,2050
 oil,Day,19.79440000000,UK,A,13,19.7944343,2050
@@ -2833,6 +2959,7 @@ ser.refrigeration,Day,12.40730000000,UK,A,13,0,2050
 ser.hot-water.high-consumption,Day,5.75830000000,UK,A,13,0,2050
 ser.hot-water.low-consumption,Day,1.15460000000,UK,A,13,0,2050
 nga,Peak,11.08330000000,UK,A,14,12.552,2050
+bog,Peak,12.69270000000,UK,A,14,10.019,2050
 biomass,Peak,12.69270000000,UK,A,14,10.019,2050
 elc,Peak,57.16670000000,UK,A,14,43.34267522,2050
 oil,Peak,19.79440000000,UK,A,14,19.7944343,2050
@@ -2852,6 +2979,7 @@ ser.refrigeration,Peak,3.72220000000,UK,A,14,0,2050
 ser.hot-water.high-consumption,Peak,1.72750000000,UK,A,14,0,2050
 ser.hot-water.low-consumption,Peak,0.34640000000,UK,A,14,0,2050
 nga,Evening,11.08330000000,UK,A,15,12.552,2050
+bog,Evening,12.69270000000,UK,A,15,10.019,2050
 biomass,Evening,12.69270000000,UK,A,15,10.019,2050
 elc,Evening,57.16670000000,UK,A,15,43.34267522,2050
 oil,Evening,19.79440000000,UK,A,15,19.7944343,2050

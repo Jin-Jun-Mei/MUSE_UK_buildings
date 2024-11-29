@@ -1,4 +1,4 @@
-ProcessName,RegionName,Time,cap_par,cap_exp,fix_par,fix_exp,var_par,var_exp,MaxCapacityAddition,MaxCapacityGrowth,TotalCapacityLimit,TechnicalLife,UtilizationFactor,ScalingSize,efficiency,InterestRate,Fuel,EndUse,Agent2
+ProcessName,RegionName,Time,cap_par,cap_exp,fix_par,fix_exp,var_par,var_exp,MaxCapacityAddition,MaxCapacityGrowth,TotalCapacityLimit,TechnicalLife,UtilizationFactor,ScalingSize,efficiency,InterestRate,Fuel,EndUse,s1
 Unit,-,year,MGBP2020/PJ_a,-,MGBP2020/PJ_a,-,MGBP2020/PJ,-,PJ,%,PJ,years,-,PJ,%,-,-,-,new
 SCHDAIR00 [SER.COOLTH.HIGH-CONSUMPTION: .00.AIR.DELIVERY.],UK,2010,0.000219760900140647,1,0.0,1,0,1,2.0,100,100000000.0,50.0,1.0,1,1.0,0.1,NGA,SER.COOLING.HIGH-CONSUMPTION,1
 SCHP-CCG00 [SER.CHP: .00.COMBINED-CYCLE.NGA.],UK,2010,423.684210526316,1,16.8421052631579,1,0,1,2.0,100,100000000.0,25.0,0.326629417259473,1,0.545074179608265,0.1,NGA,SER.OTHER,1
