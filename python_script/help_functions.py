@@ -426,3 +426,22 @@ def combine_tech(dataframe, columns_to_ignore, combine_column):
     print(f"Data grouped by columns: {columns_to_group_by} and values in '{combine_column}' combined.")
     
     return grouped_data
+
+
+def reorder_columns(dataframe, first_column):
+    """
+    Reorders the columns of a DataFrame, placing the specified column first.
+
+    Parameters:
+        dataframe (pd.DataFrame): The DataFrame to reorder.
+        first_column (str): The column to place first.
+
+    Returns:
+        pd.DataFrame: The reordered DataFrame.
+    """
+    if first_column not in dataframe.columns:
+        raise ValueError(f"Column '{first_column}' not found in DataFrame.")
+    # Create the new column order
+    columns = [first_column] + [col for col in dataframe.columns if col != first_column]
+    # Reorder and return the DataFrame
+    return dataframe[columns]
