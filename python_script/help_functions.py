@@ -202,10 +202,13 @@ def merge_by_row(file1, file2, output_file=None):
     merged_df = merged_df.drop_duplicates()
     
     if output_file is not None:
+        try:
         # Save the merged DataFrame to the specified output file
-        merged_df.to_csv(output_file, index=False)
-    
-        print(f"Merged files saved to {output_file} with duplicates removed.")
+            merged_df.to_csv(output_file, index=False)
+        
+            print(f"Merged files saved to {output_file} with duplicates removed.")
+        except Exception as e:
+            print(f"Error: {e}")
     
     return merged_df
 
@@ -302,7 +305,10 @@ def merge_by_column_and_row(file1, file2, output_file):
     
     # Concatenate the "Unit" row back on top, if it exists
     if not unit_row_df.empty:
-        merged_df = pd.concat([unit_row_df, merged_df], ignore_index=True)
+        try:
+            merged_df = pd.concat([unit_row_df, merged_df], ignore_index=True)
+        except Exception as e:
+            print(f"Error: {e}")
     
     # Drop duplicate rows based on all columns
     merged_df = merged_df.drop_duplicates()
@@ -382,9 +388,11 @@ def merge_by_row_technodata(file1, file2, output_file=None):
 
 
     if output_file is not None:
-        # Save the merged DataFrame to the specified output file
-        merged_all_columns.to_csv(output_file, index=True)
-    
-        print(f"Merged files saved to {output_file} with duplicates removed.")
+        try:
+            # Save the merged DataFrame to the specified output file
+            merged_all_columns.to_csv(output_file, index=True)
+            print(f"Merged files saved to {output_file} with duplicates removed.")
+        except Exception as e:
+            print(f"Error: {e}")
 
     return merged_all_columns
