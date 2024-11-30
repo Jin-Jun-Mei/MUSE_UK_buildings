@@ -12,7 +12,7 @@ This repository is organized into three main folders:
 1. **`MUSE_files`**: Contains the input data for the MUSE-UK buildings sector. This folder includes three subfolders — `Residential`, `Service`, and `Buildings` (created by combining the Residential and Service sectors). Each subfolder contains files that can be run as a standalone sector in MUSE.
 2. **`python_script`**: Includes Python scripts used to generate the files in `MUSE_files`.
 3. **`TIMES_data`**: Holds the TIMES model data, which serves as the basis for generating input files for the MUSE-UK buildings sector. This folder includes two subfolders — `TIMES_data_Residential` and `TIMES_data_Service`, each containing technology data specific to its respective subsector.
-4. **`Ofgem_Archetype`**: Contains information extracted from the report [Ofgem energy consumer archetypes update 2024"][./Ofgem_archetypes_update_2024_FinalReport.pdf]. Table 1 of this report is used as a reference for creating consumer archetypes in the residential sector for MUSE, referred to as 'Ofgem_agents'.
+4. **`Ofgem_Archetype`**: Contains information extracted from the report [Ofgem energy consumer archetypes update 2024"](./Ofgem_archetypes_update_2024_FinalReport.pdf). Table 1 of this report is used as a reference for creating consumer archetypes in the residential sector for MUSE, referred to as 'Ofgem_agents'.
 
 
 ---
