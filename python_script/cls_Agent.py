@@ -40,7 +40,7 @@ class Agent:
                  , Objsort1 = True
                  , Objsort2 = False
                  , Objsort3 = False
-                 , SearchRule = "all"
+                 , SearchRule = "same_enduse" # Please see MUSE documentation for more details on search rules
                  , Quantity = 1
                  , MaturityThreshold = 0
                  , DecisionMethod = "singleObj"
