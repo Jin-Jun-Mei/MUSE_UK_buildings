@@ -76,10 +76,24 @@ To generate MUSE input files for the Service subsector:
 ### **3. Building sector (Combine Residential and Service Subsectors)**
 
 To create input files for the Buildings sector:
+1. **Agent Configuration** (pre-set step):
+   - similar to the Residential subsector, first open and configure the `version` parameter in `combine_Residential+Service.ipynb`:
+     - **`single_agent`**: Combine 2 agents, a single agent from Residential and Service Subsectors respectively.
+     - **`Ofgem_agents`**: Combine 25 agents (24 from Residential and 1 from the Service Subsectors).
 
-1. **Run the Script**:
-   - Open and execute the `combine_Residential+Service.ipynb` notebook.
-   - This script combines corresponding CSV files from `MUSE_files/Residential` and `MUSE_files/Service`, removing duplicates.
+2. **Run the Script**:
+   - Execute the `combine_Residential+Service.ipynb` notebook.
+   ```python
+   if  version = 'single_agent' 
+     
+   # This script combines corresponding CSV files from `MUSE_files/Residential/single_agent` and `MUSE_files/Service`, removing duplicates.
+   ```
+   
+   ```python
+    if version = 'Ofgem_agents' 
+     
+   # This script combines corresponding CSV files from `MUSE_files/Residential/Ofgem_agents` and `MUSE_files/Service`, removing duplicates.
+   ```
 
 2. **Finalize Configuration**:
    - Add the `settings_Buildings.toml` file. This allows the Buildings sector to be run as a standalone sector in MUSE. This setting file is already in this repo. Make sure to have the correct directory relative to your MUSE input folder.
