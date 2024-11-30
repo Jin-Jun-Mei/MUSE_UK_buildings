@@ -38,5 +38,5 @@ These scripts define data, parameters, and classes used during input file genera
 
 ## Notes
 
-- Each script is modular and designed to handle specific tasks in the data generation pipeline.
+- Each script is designed/aims to handle specific tasks in the data generation pipeline.
 - For more details on how the generated input files are used, refer to the [main README](../README.md).
