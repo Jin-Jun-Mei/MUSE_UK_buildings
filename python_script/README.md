@@ -3,7 +3,7 @@
 This folder contains Python scripts and Jupyter Notebooks used to generate MUSE input files as described in the [main README](../README.md). 
 
 - **Jupyter Notebooks** (`.ipynb`): These are executed to create MUSE input files.
-- **Python Scripts** (`.py`): These helper scripts are called by the Jupyter Notebooks to process data and generate the necessary input files.
+- **Python Scripts** (`.py`): These helper scripts are called by the Jupyter Notebooks to process data and generate the MUSE input files.
 
 ---
 
@@ -11,9 +11,11 @@ This folder contains Python scripts and Jupyter Notebooks used to generate MUSE 
 
 The following Python scripts contain functions that assist in generating MUSE input files:
 
-- **`fun_add_agents_to_technodata.py`**: [Description of its function].
-- **`fun_create_ofgem_agents.py`**: [Description of its function].
-- **`help_functions.py`**: [Description of its function].
+- **`fun_add_agents_to_technodata.py`**
+- **`fun_create_ofgem_agents.py`**
+- **`help_functions.py`**
+
+For detailed functionality, refer to the inline comments and docstrings in the code.
 
 ---
 
@@ -21,10 +23,12 @@ The following Python scripts contain functions that assist in generating MUSE in
 
 These scripts define data, parameters, and classes used during input file generation:
 
-- **`name_mapping.py`**: [Description of its function].
-- **`price_projection.py`**: [Description of its function].
-- **`cls_Agent.py`**: [Description of its function].
-- **`emission_data.py`**: [Description of its function].
+- **`name_mapping.py`**
+- **`price_projection.py`**
+- **`cls_Agent.py`**
+- **`emission_data.py`**
+
+For detailed functionality, refer to the inline comments and docstrings in the code.
 
 ---
 
