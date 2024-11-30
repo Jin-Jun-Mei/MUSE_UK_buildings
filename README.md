@@ -116,4 +116,6 @@ To reduce the number of technologies in the Buildings sector (to decrease runtim
 
 We hope this repository serves as a valuable resource for understanding and using the MUSE-UK buildings sector model. For questions or contributions, feel free to submit an issue or reach out!
 
+For more detailed information about each sub-sector, please refer to the respective README files located in the corresponding folders (currently under development).
+
 ---
