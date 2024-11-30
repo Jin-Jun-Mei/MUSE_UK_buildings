@@ -1,0 +1,112 @@
+# Global Settings - REQUIRED
+time_framework = [2010, 2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050]  # Time periods for the simulation
+foresight = 5  # Must be a multiple of the minimum separation between years in `time_framework`
+regions = ["UK"]  # List of modeled regions
+interest_rate = 0.1  # Discount rate for economic calculations
+interpolation_mode = "Active"  # Mode for data interpolation
+log_level = "info"  # Logging level; options: debug, info, warning, error, critical
+
+
+# Convergence Parameters
+equilibrium_variable = "demand"  # Variable to evaluate equilibrium
+maximum_iterations = 100  # Maximum number of iterations for convergence
+tolerance = 0.1  # Convergence tolerance for equilibrium variable
+tolerance_unmet_demand = -0.1  # Allowed unmet demand (negative values)
+
+
+# Carbon budget control
+[carbon_budget_control]
+budget = []
+
+[global_input_files]
+projections = '{path}/Buildings/double_agents/Projections.csv'
+global_commodities = '{path}/Buildings/double_agents/GlobalCommodities.csv'
+
+[sectors.building_presets]
+type = 'presets'
+priority = 0
+consumption_path= '{path}/Buildings/double_agents/Consumption*.csv'
+
+[sectors.building]
+type = 'default'
+priority = 1
+dispatch_production = 'share'
+
+technodata = '{path}/Buildings/double_agents/Technodata.csv'
+technodata_timeslices = '{path}/Buildings/double_agents/TechnodataTimeslices.csv'
+commodities_in = '{path}/Buildings/double_agents/CommIn.csv'
+commodities_out = '{path}/Buildings/double_agents/CommOut.csv'
+
+[sectors.building.subsectors.retro_and_new]
+agents = '{path}/Buildings/double_agents/Agents.csv'
+
+
+existing_capacity = '{path}/Buildings/double_agents/ExistingCapacity.csv'
+
+lpsolver = "adhoc" # Optional, defaults to "scipy" or "adhoc"
+
+constraints = [  # Optional, defaults to the constraints below
+    "max_production",
+    "max_capacity_expansion",
+    "demand",
+    "search_space",
+]
+demand_share = "standard_demand"   #"standard_demand"  # Optional, default to new_and_retro
+forecast = 5  # Optional, defaults to 5 
+
+
+
+#[[sectors.building.interactions]] 
+#net = 'new_to_retro'
+#interaction = 'transfer'
+
+
+
+# Timeslice Configuration
+[timeslices]
+W.Night = 638.75  # Winter Night
+W.Day = 912.5  # Winter Day
+W.Peak = 273.75  # Winter Peak (previously "Evening_peak")
+W.Evening = 365.0  # Winter Evening (previously "Late_evening")
+P.Night = 638.75  # Spring Night
+P.Day = 912.5  # Spring Day
+P.Peak = 273.75  # Spring Peak
+P.Evening = 365.0  # Spring Evening
+S.Night = 638.75  # Summer Night
+S.Day = 912.5  # Summer Day
+S.Peak = 273.75  # Summer Peak
+S.Evening = 365.0  # Summer Evening
+A.Night = 638.75  # Autumn Night
+A.Day = 912.5  # Autumn Day
+A.Peak = 273.75  # Autumn Peak
+A.Evening = 365.0  # Autumn Evening
+
+level_names = ['season', 'period']  # Labels for timeslice levels
+
+
+
+[[outputs]]
+quantity = "prices"
+sink = "aggregate"
+filename = "{cwd}/{default_output_dir}/MCA{Quantity}.csv"
+
+[[outputs]]
+quantity = "capacity"
+sink = "aggregate"
+filename = "{cwd}/{default_output_dir}/MCA{Quantity}.csv"
+index = false
+keep_columns = ['technology', 'dst_region', 'region', 'installed', 'agent', 'sector', 'type', 'year', 'capacity']
+
+[[outputs]]
+quantity = "consumption"
+sink = "aggregate"
+filename = "{path}/double_agents/{default_output_dir}/MCA{Quantity}.csv"
+#columns = ["commodity",	"region",	"installed",	"technology", "year",	"agent",	"category",	"sector",	"consumption"]
+
+
+[[sectors.building.outputs]]
+filename = '{cwd}/{default_output_dir}/{Sector}/{Quantity}/{year}{suffix}'
+quantity = "capacity"
+sink = 'csv'
+overwrite = true
+index = false
