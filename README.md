@@ -9,9 +9,9 @@ For a comprehensive overview of the MUSE framework, refer to the [MUSE documenta
 
 This repository is organized into three main folders:
 
-1. **`MUSE_input_file`**: Contains the input data for the MUSE-UK buildings sector. This folder includes three subfolders — `Residential`, `Service`, and `Buildings` (created by combining the Residential and Service sectors). Each subfolder contains files that can be run as a standalone sector.
+1. **`MUSE_input_file`**: Contains the input data for the MUSE-UK buildings sector. This folder includes three subfolders — `Residential`, `Service`, and `Buildings` (created by combining the Residential and Service sectors). Each subfolder contains files that can be run as a standalone sector in MUSE.
 2. **`python_script`**: Includes Python scripts used to generate the files in `MUSE_input_file`.
-3. **`TIMES_data`**: Holds the TIMES model data, which serves as the basis for generating input files for the MUSE-UK buildings sector. This folder includes two subfolders — `Residential` and `Service`, each containing data specific to its respective subsector.
+3. **`TIMES_data`**: Holds the TIMES model data, which serves as the basis for generating input files for the MUSE-UK buildings sector. This folder includes two subfolders — `TIMES_data_Residential` and `TIMES_data_Service`, each containing data specific to its respective subsector.
 
 
 ---
@@ -102,4 +102,3 @@ To reduce the number of technologies in the Buildings sector (to decrease runtim
 We hope this repository serves as a valuable resource for understanding and using the MUSE-UK buildings sector model. For questions or contributions, feel free to submit an issue or reach out!
 
 ---
-
